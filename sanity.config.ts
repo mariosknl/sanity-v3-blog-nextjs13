@@ -12,31 +12,31 @@ const projectId = process.env.NEXT_PUBLIC_SANITY_PROJECT_ID!;
 const dataset = process.env.NEXT_PUBLIC_SANITY_DATASET!;
 
 export default defineConfig({
-	basePath: "/studio", // <-- important that `basePath` matches the route you're mounting your studio from, it applies to both `/pages` and `/app`
+  basePath: "/studio", // <-- important that `basePath` matches the route you're mounting your studio from, it applies to both `/pages` and `/app`
 
-	projectId,
-	dataset,
+  projectId,
+  dataset,
 
-	plugins: [
-		deskTool({
-			defaultDocumentNode: getDefaultDocumentNode,
-		}),
-		visionTool(),
-	],
+  plugins: [
+    deskTool({
+      defaultDocumentNode: getDefaultDocumentNode,
+    }),
+    visionTool(),
+  ],
 
-	schema: {
-		types: schemaTypes,
-	},
-	icon: Logo,
-	logo: Logo,
-	subtitle: "Login to manage the Blog",
-	title: "PAPAFAM Content Studio",
-	name: "PAPAFAM_Content_Studio",
-	studio: {
-		components: {
-			logo: Logo,
-			navbar: StudioNavbar,
-		},
-	},
-	theme: myTheme,
+  schema: {
+    types: schemaTypes,
+  },
+  icon: Logo,
+  logo: Logo,
+  subtitle: "Login to manage the Blog",
+  title: "PAPAFAM Content Studio",
+  name: "PAPAFAM_Content_Studio",
+  studio: {
+    components: {
+      logo: Logo,
+      navbar: StudioNavbar,
+    },
+  },
+  theme: myTheme,
 });
