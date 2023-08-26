@@ -3090,7 +3090,7 @@ fraction.js@^4.2.0:
   resolved "https://registry.yarnpkg.com/fraction.js/-/fraction.js-4.2.0.tgz#448e5109a313a3527f5a3ab2119ec4cf0e0e2950"
   integrity sha512-MhLuK+2gUcnZe8ZHlaaINnQLl0xRIGRfcGk2yl8xoQAfHrSsL3rYu6FCmBdkdbhc9EPlwyGHewaRsvwRMJtAlA==
 
-framer-motion@^10.0.0, framer-motion@^10.15.1:
+framer-motion@^10.0.0:
   version "10.15.2"
   resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-10.15.2.tgz#703e31b78b3ca06ca9fb41e6da89c1c342fc02e8"
   integrity sha512-z14GYH4WQXnuTgggwf0qyX0vo98PDE+dw21F7aLzUqEcrsmfLovy4jPiA82Cp/X0juWuEHte7rJGOjds9GAQFA==
@@ -3099,7 +3099,7 @@ framer-motion@^10.0.0, framer-motion@^10.15.1:
   optionalDependencies:
     "@emotion/is-prop-valid" "^0.8.2"
 
-framer-motion@^10.16.1:
+framer-motion@^10.15.1, framer-motion@^10.16.1:
   version "10.16.1"
   resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-10.16.1.tgz#0ff5de554bbb35ee6605357d80f92b27d0271a94"
   integrity sha512-K6TXr5mZtitC/dxQCBdg7xzdN0d5IAIrlaqCPKtIQVdzVPGC0qBuJKXggHX1vjnP5gPOFwB1KbCCTWcnFc3kWg==
@@ -4766,9 +4766,9 @@ sanity-diff-patch@^1.0.9:
     diff-match-patch "^1.0.5"
 
 sanity-plugin-iframe-pane@^2.1.1:
-  version "2.5.4"
-  resolved "https://registry.yarnpkg.com/sanity-plugin-iframe-pane/-/sanity-plugin-iframe-pane-2.5.4.tgz#4eb8aeefcfdc04c3c2ce759d08468d1457dad8ce"
-  integrity sha512-BoSY5FNNl3P8HChqEEpOzkj9OMi5AhD9tHtmaQZeFB/v+9s/Ktl0ibYXgX8CFQ0KIlCdVO8erNjAtPI4dP5ncg==
+  version "2.5.5"
+  resolved "https://registry.yarnpkg.com/sanity-plugin-iframe-pane/-/sanity-plugin-iframe-pane-2.5.5.tgz#ac39ca422bfef68669ea85bfface61905bd38437"
+  integrity sha512-GoOjYXw7KKmPwA5+dy3ebR27cN/v6DGPtBxx2eaiBvJdVBHQ74JiCs97Kx9y0cAPFBtmTQ+bg0JkKPtxJLl9cw==
   dependencies:
     "@sanity/icons" "^2.4.1"
     "@sanity/incompatible-plugin" "^1.0.0"
