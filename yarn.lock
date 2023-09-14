@@ -1714,10 +1714,10 @@
     golden-fleece "^1.0.9"
     pkg-dir "^5.0.0"
 
-"@sanity/client@^6.4.5":
-  version "6.4.9"
-  resolved "https://registry.yarnpkg.com/@sanity/client/-/client-6.4.9.tgz#453fc7127cc959cbb929b91d3990cf3943362973"
-  integrity sha512-9y/exbu9kBgIuXouUWlHLGfPm3/jxRP8bSaysteILTQknLQZHExSyjFsYD/CxH3Xk43NzELqktvEXlP1/kZ6LA==
+"@sanity/client@^6.4.11":
+  version "6.4.12"
+  resolved "https://registry.yarnpkg.com/@sanity/client/-/client-6.4.12.tgz#34a1a543669157eba533e64b60359984ef9c6d33"
+  integrity sha512-TuseXC5z0CORO7wKMmhNTiKy/8vjWsN7/PTMy53MUBshlMYE2xPad2QFw1zr+n/7qvNNc/CQ6Y2wVnaXU9PHVg==
   dependencies:
     "@sanity/eventsource" "^5.0.0"
     get-it "^8.4.3"
@@ -1908,20 +1908,12 @@
     lodash "^4.17.21"
     object-inspect "^1.6.0"
 
-"@sanity/types@3.16.4":
+"@sanity/types@3.16.4", "@sanity/types@^3.14.5":
   version "3.16.4"
   resolved "https://registry.yarnpkg.com/@sanity/types/-/types-3.16.4.tgz#a17f5e18cebdddc528bc865bec85152c0ea3244f"
   integrity sha512-hucdBktsM9dPtKNQmAKeBF2pVa81YZ2oJ5+IQbRsnzEKRl5UJEGb6HQ9u/qHr/0Sg4WJzi+RrjltOO7HqZ+rHg==
   dependencies:
     "@sanity/client" "^6.4.9"
-    "@types/react" "^18.0.25"
-
-"@sanity/types@^3.14.5":
-  version "3.15.1"
-  resolved "https://registry.yarnpkg.com/@sanity/types/-/types-3.15.1.tgz#177d68329a18d4fa75ef2ff843dcaced32ea0b1e"
-  integrity sha512-B24SrVAJfCiF8q+JeTUtUqGjuX9YQj+ytdPcDNVbduIMeQeOmS6keumTvXZ7OS8OK0pgsffP5kUE00KWHgbPxg==
-  dependencies:
-    "@sanity/client" "^6.4.5"
     "@types/react" "^18.0.25"
 
 "@sanity/ui@^1.0.0", "@sanity/ui@^1.0.1", "@sanity/ui@^1.7.2":
@@ -4022,10 +4014,11 @@ nanoid@^3.1.12, nanoid@^3.1.30, nanoid@^3.3.4, nanoid@^3.3.6:
   integrity sha512-BGcqMMJuToF7i1rt+2PWSNVnWIkGCU78jBG3RxO/bZlnZPK2Cmi2QaffxGO/2RvWi9sL+FAiRiXMgsyxQ1DIDA==
 
 next-sanity@^5.0.0:
-  version "5.4.6"
-  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-5.4.6.tgz#3d9cf8802c7a48662cfb43841745ab89b7a37917"
-  integrity sha512-VgbLxYfgzLETNXKuvShhtaYKlz7DDb5QlFvvjf0eF82lIevI1c0jGHgPRhOTRuv0csvy9FVFCyMlxoc+BkAVmQ==
+  version "5.5.3"
+  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-5.5.3.tgz#f419a769bc6de02c95021a4fcafedea21d783e93"
+  integrity sha512-7Ec0texAbVphQHJTpHeNJN8EiNsJVhW14T/PvHq/UP7wYiLRkX/l9Fp/gHt6Vss9EKcHPqnMKYDWZTejWeyOHg==
   dependencies:
+    "@sanity/client" "^6.4.11"
     "@sanity/preview-kit" "3.1.6"
     "@sanity/webhook" "3.0.1"
     groq "^3.0.0"
