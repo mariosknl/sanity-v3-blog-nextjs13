@@ -1064,15 +1064,15 @@
     "@types/react" "^18.0.25"
 
 "@sanity/ui@^1.0.1", "@sanity/ui@^1.7.2", "@sanity/ui@^1.8.2":
-  version "1.8.2"
-  resolved "https://registry.yarnpkg.com/@sanity/ui/-/ui-1.8.2.tgz#70f0c55e3bdd04b662d3cd84af168d4e27adfc2c"
-  integrity sha512-XWtVdIG1PWBEiNPcObRfXsX/EPhiPCHMmfdn+frPIVLTLnoQnNju3W9UQAWec+BwjXBCpPtfc36AoiQSDUkxzw==
+  version "1.8.3"
+  resolved "https://registry.yarnpkg.com/@sanity/ui/-/ui-1.8.3.tgz#e527c2e9df0951f546c05cf015770be2b7e1927f"
+  integrity sha512-LOYVLkpnGrWlCRTjluFn2wf7y4BzYhFBzdnBmNT0uRWH3pXN24xXH49e0HfbJ3tzRLOKwLo35IexvBKQwPgYZg==
   dependencies:
     "@floating-ui/react-dom" "2.0.0"
     "@sanity/color" "^2.2.5"
     "@sanity/icons" "^2.4.1"
     csstype "^3.1.2"
-    framer-motion "^10.16.1"
+    framer-motion "^10.16.2"
     react-refractor "^2.1.7"
 
 "@sanity/util@3.18.1":
@@ -2350,7 +2350,7 @@ fraction.js@^4.3.6:
   resolved "https://registry.yarnpkg.com/fraction.js/-/fraction.js-4.3.6.tgz#e9e3acec6c9a28cf7bc36cbe35eea4ceb2c5c92d"
   integrity sha512-n2aZ9tNfYDwaHhvFTkhFErqOMIb8uyzSQ+vGJBjZyanAKZVbGUQ1sngfk9FdkBw7G26O7AgNjLcecLffD1c7eg==
 
-framer-motion@^10.0.0, framer-motion@^10.16.1, framer-motion@^10.16.4:
+framer-motion@^10.0.0, framer-motion@^10.16.2, framer-motion@^10.16.4:
   version "10.16.4"
   resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-10.16.4.tgz#30279ef5499b8d85db3a298ee25c83429933e9f8"
   integrity sha512-p9V9nGomS3m6/CALXqv6nFGMuFOxbWsmaOrdmhyQimMIlLl3LC7h7l86wge/Js/8cRu5ktutS/zlzgR7eBOtFA==
