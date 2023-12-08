@@ -852,10 +852,20 @@
     golden-fleece "^1.0.9"
     pkg-dir "^5.0.0"
 
-"@sanity/client@^6.8.6", "@sanity/client@^6.9.1":
+"@sanity/client@^6.8.6":
   version "6.9.1"
   resolved "https://registry.yarnpkg.com/@sanity/client/-/client-6.9.1.tgz#b95d68e313118e0bbdb6260f7a8c8463cd02bba3"
   integrity sha512-k104Mp3n7uhmY/6DZ5oVxeX1pL3ixv3htodsqW3f2aEQnBXBcRYFQ9OL12p2jpSeOSicOve2joX2sBx0fJBdww==
+  dependencies:
+    "@sanity/eventsource" "^5.0.0"
+    "@vercel/stega" "0.1.0"
+    get-it "^8.4.4"
+    rxjs "^7.0.0"
+
+"@sanity/client@^6.9.3":
+  version "6.9.3"
+  resolved "https://registry.yarnpkg.com/@sanity/client/-/client-6.9.3.tgz#adba44b9936ae06641111ac197fd18ffa9be148b"
+  integrity sha512-ba8fHqsncuuPNCGs5qTynpQqWdyeQzXmPQ6UzaNCn4/JNKmoucrdSNfCijE+3CsA23OJpZe51RqkF9JRvOpkdw==
   dependencies:
     "@sanity/eventsource" "^5.0.0"
     "@vercel/stega" "0.1.0"
@@ -1018,17 +1028,17 @@
     rxjs "^7.8.1"
     suspend-react "0.1.3"
 
-"@sanity/preview-kit-compat@1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@sanity/preview-kit-compat/-/preview-kit-compat-1.0.2.tgz#fe76f9727b5e5125d5f665c7e85a262aab0fc969"
-  integrity sha512-TnmbxyKDJiWVBx0ByI4MfyZUJoAWwBoq1Luh1dRsiVrXMubxw7/N22PjLnmNb4SyFCqJpVZ4KWufURD2QRCKoA==
+"@sanity/preview-kit-compat@1.2.2":
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/@sanity/preview-kit-compat/-/preview-kit-compat-1.2.2.tgz#4994106d646ed97a0acd1530fb872fd58f46f84c"
+  integrity sha512-hm6rcz5sKBc/0sS4zn5HYvj9eD00OxzkGyj7qu3Lp//SwVXT8sX2Ad4x28lxJvrjSYENt7ByiSt8Y2gfnRbJRw==
 
-"@sanity/preview-kit@5.0.1":
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/@sanity/preview-kit/-/preview-kit-5.0.1.tgz#ed3d1d9cecb75ab713d8bc58f630975e8cd69fad"
-  integrity sha512-MFkOGPegwvQ0EJ9H5nzLnYvVxLCzamevb8rdEgsubL4rTswkRKL52zogFuYOr3/XlBmQgC2y1/jSTlyEtqwslw==
+"@sanity/preview-kit@5.0.5":
+  version "5.0.5"
+  resolved "https://registry.yarnpkg.com/@sanity/preview-kit/-/preview-kit-5.0.5.tgz#278c1089b5cf4acd50a3907732c8d24012e6b66e"
+  integrity sha512-mAnNm0XIrrowQolrR4xZq8cQp1XH+Xw7Vv5lDwIV5vgZBi62KPiOhGrVpBupE0JWRqW/RkylmW88Xw0Q5Ki3+Q==
   dependencies:
-    "@sanity/preview-kit-compat" "1.0.2"
+    "@sanity/preview-kit-compat" "1.2.2"
     "@vercel/stega" "0.1.0"
     lru-cache "10.1.0"
     mendoza "3.0.3"
@@ -2532,9 +2542,9 @@ groq-js@^1.1.12:
   integrity sha512-J7+JcxM0OvoowSkhNZAabCLueldEMkKzd9ufCEDRjKvkD1PcBUwyfsGvxUI59UojRCqFqp0y76LLzPzwSZTetw==
 
 groq@^3.19:
-  version "3.21.0"
-  resolved "https://registry.yarnpkg.com/groq/-/groq-3.21.0.tgz#983793d039b545c9b089c030731ca6cf57394935"
-  integrity sha512-f6uEiHJTNNlBfCOluGoC5X90F8NGPHvj5lpNFv9Q8P9GS9qdXyckFVsiRMUQw+i0hc/1OzGVvuYeBmn8tVppbQ==
+  version "3.21.1"
+  resolved "https://registry.yarnpkg.com/groq/-/groq-3.21.1.tgz#84c26140772c9128edada707df47a8b2efea44a1"
+  integrity sha512-gM82GkjW3jmqgwEqsTETv9dzh6Ys1FVc4oxuRUEEkEHqFUogVdUqNes4MMWyGX2NC5QM29R2T0fjiupZBBTohw==
 
 gunzip-maybe@^1.4.1:
   version "1.4.2"
@@ -3206,12 +3216,12 @@ nanoid@^3.3.4:
   integrity sha512-BGcqMMJuToF7i1rt+2PWSNVnWIkGCU78jBG3RxO/bZlnZPK2Cmi2QaffxGO/2RvWi9sL+FAiRiXMgsyxQ1DIDA==
 
 next-sanity@^7.0.0:
-  version "7.0.1"
-  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-7.0.1.tgz#f2d54be5f184d1bc723800018527db85306a81ed"
-  integrity sha512-WezHXY5Wt0SArjl6Ddg0pmu+yy3ygULEgVA44UJpM5VvZIn8lHNDrq2gTduJxYgrBvDx/m5RR48nAW86bbGxyQ==
+  version "7.0.3"
+  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-7.0.3.tgz#776498ae87c246ca9fd0b86a38a1ce73d4b1962f"
+  integrity sha512-PCTkDEm2ofubRLA6iAB1oKLnqjy/4CGfeBP7yb/4a9F2152d1j38GlUQA/GSx3uMqX/TYq9C85XFTQ2He3bGFA==
   dependencies:
-    "@sanity/client" "^6.9.1"
-    "@sanity/preview-kit" "5.0.1"
+    "@sanity/client" "^6.9.3"
+    "@sanity/preview-kit" "5.0.5"
     "@sanity/webhook" "4.0.0"
     groq "^3.19"
 
