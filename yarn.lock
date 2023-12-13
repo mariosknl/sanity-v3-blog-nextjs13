@@ -1051,14 +1051,7 @@
     react-fast-compare "3.2.2"
     use-sync-external-store "1.2.0"
 
-"@sanity/preview-url-secret@^1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@sanity/preview-url-secret/-/preview-url-secret-1.2.0.tgz#71b683cce788697e5735729ed540dbc585e7cc32"
-  integrity sha512-w2LIje78OOzbDTF+jtFg89d9Jexs/3Za5uD5leCwc3jvnguD5b0/NB0gE+MOa3rVr8Q8cRxkij3M0qAblHfLfA==
-  dependencies:
-    "@sanity/uuid" "3.0.2"
-
-"@sanity/preview-url-secret@^1.3.4":
+"@sanity/preview-url-secret@^1.3.3", "@sanity/preview-url-secret@^1.3.4":
   version "1.3.4"
   resolved "https://registry.yarnpkg.com/@sanity/preview-url-secret/-/preview-url-secret-1.3.4.tgz#cca45fdde9547fc8f53ecc6266be3865fb026ed8"
   integrity sha512-RCqGJpCGBdxUrZPHextJsDWtLJ2V7mZy96HboUI+E5OJ2tG042Ag32pJOQef70XgLE2ZBxKNNu1E6kBAE6wC1g==
@@ -2361,19 +2354,10 @@ fraction.js@^4.3.6:
   resolved "https://registry.yarnpkg.com/fraction.js/-/fraction.js-4.3.6.tgz#e9e3acec6c9a28cf7bc36cbe35eea4ceb2c5c92d"
   integrity sha512-n2aZ9tNfYDwaHhvFTkhFErqOMIb8uyzSQ+vGJBjZyanAKZVbGUQ1sngfk9FdkBw7G26O7AgNjLcecLffD1c7eg==
 
-framer-motion@^10.0.0, framer-motion@^10.16.16, framer-motion@^10.16.2:
+framer-motion@^10.0.0, framer-motion@^10.16.16, framer-motion@^10.16.2, framer-motion@^10.16.5:
   version "10.16.16"
   resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-10.16.16.tgz#a10a03e1190a717109163cfff212a84c8ad11b0c"
   integrity sha512-je6j91rd7NmUX7L1XHouwJ4v3R+SO4umso2LUcgOct3rHZ0PajZ80ETYZTajzEXEl9DlKyzjyt4AvGQ+lrebOw==
-  dependencies:
-    tslib "^2.4.0"
-  optionalDependencies:
-    "@emotion/is-prop-valid" "^0.8.2"
-
-framer-motion@^10.16.5:
-  version "10.16.5"
-  resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-10.16.5.tgz#f1ad625adf213a8906f1ea52a31a4ef222f056d5"
-  integrity sha512-GEzVjOYP2MIpV9bT/GbhcsBNoImG3/2X3O/xVNWmktkv9MdJ7P/44zELm/7Fjb+O3v39SmKFnoDQB32giThzpg==
   dependencies:
     tslib "^2.4.0"
   optionalDependencies:
@@ -3998,13 +3982,13 @@ sanity-diff-patch@^3.0.2:
     "@sanity/diff-match-patch" "^3.0.0"
 
 sanity-plugin-iframe-pane@^3.0.0:
-  version "3.1.2"
-  resolved "https://registry.yarnpkg.com/sanity-plugin-iframe-pane/-/sanity-plugin-iframe-pane-3.1.2.tgz#3cb6c390499c8f8f217a85fe31b3fe8a8a8fa85c"
-  integrity sha512-NcG0eJWDOhwtwMPsFxmCW/EDyaX5w43wlvWvAN2+qvoak4VtLraDFMluWZSQ2IYh2F3svTZgOsda42arec9jOQ==
+  version "3.1.3"
+  resolved "https://registry.yarnpkg.com/sanity-plugin-iframe-pane/-/sanity-plugin-iframe-pane-3.1.3.tgz#64d8e140da055ab6f74524e84f1e2e976dcece65"
+  integrity sha512-QdOjNVA4Jj+ybAt0adTWPv9Dvp//IChV5zv6gSrTCOTaSrPt4ttgIPvKIjkFS7EoHadjZQ9c+8F+9Dxo2GlyBw==
   dependencies:
     "@sanity/icons" "^2.7.0"
     "@sanity/incompatible-plugin" "^1.0.4"
-    "@sanity/preview-url-secret" "^1.2.0"
+    "@sanity/preview-url-secret" "^1.3.3"
     "@sanity/ui" "^1.9.3"
     framer-motion "^10.16.5"
     suspend-react "0.1.3"
