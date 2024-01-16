@@ -905,17 +905,7 @@
     node-machine-id "^1.1.12"
     pkg-dir "^5.0.0"
 
-"@sanity/client@^6.10.0":
-  version "6.11.1"
-  resolved "https://registry.yarnpkg.com/@sanity/client/-/client-6.11.1.tgz#3c36109434775d1588b171e4840e6750415da6d1"
-  integrity sha512-em4jWdXl/yZQsXRslTqF+0kj5sFM9l9tVz7pE/vPLN0aYlX+jxovzX4PBXLC1/gdJVtpT4GQRHcTBcnNSOtPNA==
-  dependencies:
-    "@sanity/eventsource" "^5.0.0"
-    "@vercel/stega" "0.1.0"
-    get-it "^8.4.4"
-    rxjs "^7.0.0"
-
-"@sanity/client@^6.11.1":
+"@sanity/client@^6.10.0", "@sanity/client@^6.11.1":
   version "6.11.1"
   resolved "https://registry.yarnpkg.com/@sanity/client/-/client-6.11.1.tgz#3c36109434775d1588b171e4840e6750415da6d1"
   integrity sha512-em4jWdXl/yZQsXRslTqF+0kj5sFM9l9tVz7pE/vPLN0aYlX+jxovzX4PBXLC1/gdJVtpT4GQRHcTBcnNSOtPNA==
@@ -1368,10 +1358,19 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react@*", "@types/react@18.2.47", "@types/react@^18.0.25":
+"@types/react@*", "@types/react@^18.0.25":
   version "18.2.47"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-18.2.47.tgz#85074b27ab563df01fbc3f68dc64bf7050b0af40"
   integrity sha512-xquNkkOirwyCgoClNk85BjP+aqnIS+ckAJ8i37gAbDs14jfW/J23f2GItAf33oiUPQnqNMALiFeoM9Y5mbjpVQ==
+  dependencies:
+    "@types/prop-types" "*"
+    "@types/scheduler" "*"
+    csstype "^3.0.2"
+
+"@types/react@18.2.48":
+  version "18.2.48"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.2.48.tgz#11df5664642d0bd879c1f58bc1d37205b064e8f1"
+  integrity sha512-qboRCl6Ie70DQQG9hhNREz81jqC1cs9EVNcjQ1AU+jH6NFfSAhVVbrrY/+nSF+Bsk4AOwm9Qa61InvMCyV+H3w==
   dependencies:
     "@types/prop-types" "*"
     "@types/scheduler" "*"
