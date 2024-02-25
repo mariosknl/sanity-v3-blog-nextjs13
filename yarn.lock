@@ -1194,9 +1194,9 @@
     react-refractor "^2.1.7"
 
 "@sanity/ui@^2.0.0", "@sanity/ui@^2.0.1", "@sanity/ui@^2.0.2":
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/@sanity/ui/-/ui-2.0.3.tgz#3356852d0a539dae7115b22a3ad5561833381811"
-  integrity sha512-xfC5u/dnvvfkrlHPsSvTOYaJOHiQkS5SIir+PBDy0HS4xBEVCnB0cE2MGyghBQAeHr53GI10uSOja5P7uk2zaA==
+  version "2.0.7"
+  resolved "https://registry.yarnpkg.com/@sanity/ui/-/ui-2.0.7.tgz#4436940ace282bada1256d7e2cde58337cf31596"
+  integrity sha512-Z8V92PHrQayzqh+3NHo0mBmZoFvO/CufYtkd6L83yKaPwq19aDXd5aW3bc7vS99zze1Z+T7BVG75/K6sPGf0hA==
   dependencies:
     "@floating-ui/react-dom" "^2.0.8"
     "@sanity/color" "^3.0.0"
@@ -2655,10 +2655,19 @@ framer-motion@^10.16.5:
   optionalDependencies:
     "@emotion/is-prop-valid" "^0.8.2"
 
-framer-motion@^11.0.0, framer-motion@^11.0.5:
+framer-motion@^11.0.0:
   version "11.0.5"
   resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-11.0.5.tgz#2ae1341d8605a01c50009d3bb195a67e4e2bfc69"
   integrity sha512-Lb0EYbQcSK/pgyQUJm+KzsQrKrJRX9sFRyzl9hSr9gFG4Mk8yP7BjhuxvRXzblOM/+JxycrJdCDVmOQBsjpYlw==
+  dependencies:
+    tslib "^2.4.0"
+  optionalDependencies:
+    "@emotion/is-prop-valid" "^0.8.2"
+
+framer-motion@^11.0.5:
+  version "11.0.6"
+  resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-11.0.6.tgz#97c3076d9d718486eb533b58b88db800139d5fc3"
+  integrity sha512-BpO3mWF8UwxzO3Ca5AmSkrg14QYTeJa9vKgoLOoBdBdTPj0e81i1dMwnX6EQJXRieUx20uiDBXq8bA6y7N6b8Q==
   dependencies:
     tslib "^2.4.0"
   optionalDependencies:
