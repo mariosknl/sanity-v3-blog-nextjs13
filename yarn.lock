@@ -2027,9 +2027,9 @@
     "@types/react" "^18.0.25"
 
 "@sanity/ui@^2.0.0", "@sanity/ui@^2.0.15", "@sanity/ui@^2.1.2":
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/@sanity/ui/-/ui-2.1.2.tgz#d96f7ccac865977f571f57264a42c207bab7e5bf"
-  integrity sha512-mrg0zyTdOVnaGsGIa9aOEvCcSNN3J97wH57aID1T4OhG29diO7lTyehRG5R+YfXBPjoCyfV3dU+aFLKXCsiBUg==
+  version "2.1.4"
+  resolved "https://registry.yarnpkg.com/@sanity/ui/-/ui-2.1.4.tgz#dd1dad0728c3b152b99f2c453c18f44cf2d8b2ff"
+  integrity sha512-upOLalVCaDrW774mOwNo/f5rNsHcJASGElf/e1vLCViltdSmJ3rb7rdTRKIT26+LE4Jl0ACJIkli6J/qbGWpjQ==
   dependencies:
     "@floating-ui/react-dom" "^2.0.8"
     "@sanity/color" "^3.0.6"
