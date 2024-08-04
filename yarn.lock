@@ -1790,22 +1790,13 @@
     silver-fleece "1.1.0"
     validate-npm-package-name "^3.0.0"
 
-"@sanity/client@^6.15.11", "@sanity/client@^6.15.20", "@sanity/client@^6.21.1":
+"@sanity/client@^6.15.11", "@sanity/client@^6.15.20", "@sanity/client@^6.20.1", "@sanity/client@^6.21.1":
   version "6.21.1"
   resolved "https://registry.yarnpkg.com/@sanity/client/-/client-6.21.1.tgz#88547f236a4fe214315fa04fe69893b8aa5424a0"
   integrity sha512-j6OnE6Ytso0c5imjuIviglJDKXgd3jCVyPmZO+GpqWDtPWSXPucqH/mFyHcs5+kWyfAfkY5G1R2+Er0L7Sb0hA==
   dependencies:
     "@sanity/eventsource" "^5.0.2"
     get-it "^8.6.3"
-    rxjs "^7.0.0"
-
-"@sanity/client@^6.20.1":
-  version "6.20.1"
-  resolved "https://registry.yarnpkg.com/@sanity/client/-/client-6.20.1.tgz#92ec3d57fda8f0678f34938b435b123af5db2d1a"
-  integrity sha512-iyqooCYAMWxHwlGYuePlZlaL2VsgX57cV610czxPLh2ooUnW4U/7zE3oIlSY1VFQ4WDfg4w5//xp6+5WdyEs9A==
-  dependencies:
-    "@sanity/eventsource" "^5.0.2"
-    get-it "^8.6.1"
     rxjs "^7.0.0"
 
 "@sanity/codegen@3.52.4":
@@ -2027,14 +2018,7 @@
     "@sanity/preview-kit-compat" "1.5.1"
     mendoza "3.0.7"
 
-"@sanity/preview-url-secret@^1.6.17":
-  version "1.6.17"
-  resolved "https://registry.yarnpkg.com/@sanity/preview-url-secret/-/preview-url-secret-1.6.17.tgz#07a43cc1a2758189ca0db930122f076d06987353"
-  integrity sha512-Gj0bnochUdyGJdcYdZMJ8up81aqp6dCy1ldE5Hx3tIktANc7LYie0KfZctexY1h+teBi50vKpk8uiVID/V2e2w==
-  dependencies:
-    "@sanity/uuid" "3.0.2"
-
-"@sanity/preview-url-secret@^1.6.18":
+"@sanity/preview-url-secret@^1.6.17", "@sanity/preview-url-secret@^1.6.18":
   version "1.6.19"
   resolved "https://registry.yarnpkg.com/@sanity/preview-url-secret/-/preview-url-secret-1.6.19.tgz#e1792b3cbad3ae7f30a72903daf93243cd8c5f41"
   integrity sha512-uOeC0+cca5uQzQUfAEXK3a48A07PJczHsPfSNh9sbtSgDBaBlMoiQjV/jE/eMADvKmKnJ13Yrobn2jscavI9TA==
@@ -3836,7 +3820,7 @@ get-caller-file@^2.0.5:
   resolved "https://registry.yarnpkg.com/get-caller-file/-/get-caller-file-2.0.5.tgz#4f94412a82db32f36e3b0b9741f8a97feb031f7e"
   integrity sha512-DyFP3BM/3YHTQOCUL/w0OZHR0lpKeGrxotcHWcqNEdnltqFwXVfhEBQ94eIo34AfQpo0rGki4cyIiftY06h2Fg==
 
-get-it@^8.4.21, get-it@^8.6.1, get-it@^8.6.2, get-it@^8.6.3:
+get-it@^8.4.21, get-it@^8.6.2, get-it@^8.6.3:
   version "8.6.3"
   resolved "https://registry.yarnpkg.com/get-it/-/get-it-8.6.3.tgz#eeadb1bfe52df74c1b38d2f03384da47a07027f7"
   integrity sha512-I7AKP1Xl2q2j4ucvU0yMtiM+xZKgzD1Fvyh1YcZCT66i+wNrxJAonV+H1yynB3gerZ17uA00IXg61LVLdDeiCg==
@@ -3970,15 +3954,10 @@ groq-js@^1.12.0:
   dependencies:
     debug "^4.3.4"
 
-groq@3.52.4:
+groq@3.52.4, groq@^3.37.1:
   version "3.52.4"
   resolved "https://registry.yarnpkg.com/groq/-/groq-3.52.4.tgz#fff9477bcd9b4799f7edb0c9aeedbfbe76e11796"
   integrity sha512-EOwlT3oyp7kbBqfuPLedAvQUk4XLGGvjDzc3fBJjC2yjwQPivEbaZRslIU7WLUThy97GEpFWS7z1HKFGZTCd1A==
-
-groq@^3.37.1:
-  version "3.48.1"
-  resolved "https://registry.yarnpkg.com/groq/-/groq-3.48.1.tgz#22b55607d6255689df040626037f3c3ae728bba4"
-  integrity sha512-GwPCG/pfBAMXBr3TyZdgM2cBSq86bHAME9OgV7E1pB4ohRkX9Y9vovvTanqaNsepQw3FAFH9bjwGG/bbwlHHoQ==
 
 gunzip-maybe@^1.4.1:
   version "1.4.2"
@@ -4822,9 +4801,9 @@ nanoid@^5.0.4:
   integrity sha512-oLxFY2gd2IqnjcYyOXD8XGCftpGtZP2AbHbOkthDkvRywH5ayNtPVy9YlOPcHckXzbLTCHpkb7FB+yuxKV13pQ==
 
 next-sanity@^9.0.0:
-  version "9.4.2"
-  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-9.4.2.tgz#21d4fe37ed0a27877e30296c52dd834416f344ce"
-  integrity sha512-v9OGJyV7/0hUukOzSzcRAvpJ0ZGNaUrRrAf7z6j9BoAF8GCoc0Onn/E/cmJZkXOiyoh3gZxPO1P/mysoJYClMw==
+  version "9.4.3"
+  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-9.4.3.tgz#f2b5bc0d5044dd4e101043893c1eec0b9502ad0f"
+  integrity sha512-Lg1zYwlJJq8YcLcNsGsSER7Lxo7qAzFZMcTGJuemWgIuuyl+RL/JgTPKfB8AJWs4pK+wuEjyqhVs+lvlERQ0VQ==
   dependencies:
     "@portabletext/react" "^3.1.0"
     "@sanity/client" "^6.20.1"
