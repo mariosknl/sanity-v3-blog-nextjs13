@@ -1881,12 +1881,7 @@
   resolved "https://registry.yarnpkg.com/@sanity/icons/-/icons-2.11.8.tgz#90a38b7d23b5c9f728a6e7ebdac80c3f76c64c35"
   integrity sha512-C4ViXtk6eyiNTQ5OmxpfmcK6Jw+LLTi9zg9XBUD15DzC4xTHaGW9SVfUa43YtPGs3WC3M0t0K59r0GDjh52HIg==
 
-"@sanity/icons@^3.0.0":
-  version "3.3.1"
-  resolved "https://registry.yarnpkg.com/@sanity/icons/-/icons-3.3.1.tgz#611022999166c67ad06f0747ca66a622471639f2"
-  integrity sha512-5SYwRmqKpEVABUyLbSBC5Ffr21P2EvtWZtkqMCh3fiMpNMM3c56RFjdQBoPn2w1EuzJXSFit/ZTHMWAXMMlAwA==
-
-"@sanity/icons@^3.3.1", "@sanity/icons@^3.4.0":
+"@sanity/icons@^3.0.0", "@sanity/icons@^3.3.1", "@sanity/icons@^3.4.0":
   version "3.4.0"
   resolved "https://registry.yarnpkg.com/@sanity/icons/-/icons-3.4.0.tgz#bf838d1a67382d75231be55b4e89346ffdfb5fe6"
   integrity sha512-X8BMM68w3y5cuCLpPwV7jGhVNGgAL/FA3UI6JaRCsyVOahA6aBOeKdjFs5MHtKi8cmrKwq1a98h/HbrK56kszA==
