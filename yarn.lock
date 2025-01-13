@@ -2516,9 +2516,9 @@
     "@sanity/client" "^6.24.1"
 
 "@sanity/ui@^2.0.0", "@sanity/ui@^2.10.12", "@sanity/ui@^2.11.0", "@sanity/ui@^2.11.1":
-  version "2.11.1"
-  resolved "https://registry.yarnpkg.com/@sanity/ui/-/ui-2.11.1.tgz#cd9d9ef510793dfe8f52e845e143ea1e2de0a4af"
-  integrity sha512-aO9+dIlwua6QuQfE5O8WF5gb4BUUyunzK2jmT1g/EVovxhkdBOHbmx2bNfw/xNOcSoL0X7ETnKUW4qdR+Hn2TQ==
+  version "2.11.2"
+  resolved "https://registry.yarnpkg.com/@sanity/ui/-/ui-2.11.2.tgz#4feed7dcb110f4f8b97a44626d281219f16d12b4"
+  integrity sha512-EfuQE6JEBZ1DcDHOD6vBsSnqQgyCT08Sqy0iYKF3dQBnT/0hd+bVpomqnmjnzDiAO6E5SfUTXCIm4MxLsQ4QMg==
   dependencies:
     "@floating-ui/react-dom" "^2.1.2"
     "@sanity/color" "^3.0.6"
