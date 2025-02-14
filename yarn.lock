@@ -2432,17 +2432,17 @@
     "@sanity/client" "^6.27.2"
 
 "@sanity/ui@^2.0.0", "@sanity/ui@^2.11.4", "@sanity/ui@^2.11.6", "@sanity/ui@^2.11.8", "@sanity/ui@^2.12.1":
-  version "2.12.2"
-  resolved "https://registry.yarnpkg.com/@sanity/ui/-/ui-2.12.2.tgz#3ff42f8ab4ce6d546ec03da0e88ac460e92fd26f"
-  integrity sha512-HzuZ54nmC7mSdyOUtiu3T31vzVouiQd7780aS6M/SaGGPptYxJ2gwxlrlU6KEaOM+VkjLt6Dk3ewDA7T4sNcbg==
+  version "2.13.0"
+  resolved "https://registry.yarnpkg.com/@sanity/ui/-/ui-2.13.0.tgz#075fd2cccf5455c59238e65fd80f933cd69e6aad"
+  integrity sha512-958jjqSC2jD/jTdi98m//QI82v2WUnPANSEWD2jWFu063jeJ2Jj3L1MS08BGrVuTfmlSrXI/K8k0gRLPEdovgQ==
   dependencies:
     "@floating-ui/react-dom" "^2.1.2"
     "@juggle/resize-observer" "^3.4.0"
     "@sanity/color" "^3.0.6"
     "@sanity/icons" "^3.5.7"
     csstype "^3.1.3"
-    framer-motion "^12.4.1"
-    react-compiler-runtime "19.0.0-beta-714736e-20250131"
+    framer-motion "^12.4.2"
+    react-compiler-runtime "19.0.0-beta-30d8a17-20250209"
     react-refractor "^2.2.0"
     use-effect-event "^1.0.2"
 
@@ -4210,10 +4210,19 @@ fraction.js@^4.3.7:
   resolved "https://registry.yarnpkg.com/fraction.js/-/fraction.js-4.3.7.tgz#06ca0085157e42fda7f9e726e79fefc4068840f7"
   integrity sha512-ZsDfxO51wGAXREY55a7la9LScWpwv9RxIrYABrlvOFBlH/ShPnrtsXeuUIfXKKOVicNxQ+o8JTbJvjS4M89yew==
 
-framer-motion@^12.0.0, framer-motion@^12.0.6, framer-motion@^12.4.1:
+framer-motion@^12.0.0, framer-motion@^12.0.6:
   version "12.4.1"
   resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-12.4.1.tgz#824357e4f4366e3a7810af2e3389c3482a38a80e"
   integrity sha512-5Ijbea3topSZjadQ0hgc/TcWj2ldMZmNREM7RvAhvsThYOA1HHOA8TT1yKvMu1YXP3jWaFwoZ6Vo9Nw+DUZrzA==
+  dependencies:
+    motion-dom "^12.0.0"
+    motion-utils "^12.0.0"
+    tslib "^2.4.0"
+
+framer-motion@^12.4.2:
+  version "12.4.2"
+  resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-12.4.2.tgz#8d7c1684fdc1206ddd111bdfd53dcddd6b1fd960"
+  integrity sha512-pW307cQKjDqEuO1flEoIFf6TkuJRfKr+c7qsHAJhDo4368N/5U8/7WU8J+xhd9+gjmOgJfgp+46evxRRFM39dA==
   dependencies:
     motion-dom "^12.0.0"
     motion-utils "^12.0.0"
@@ -6060,6 +6069,11 @@ react-clientside-effect@^1.2.7:
   integrity sha512-gce9m0Pk/xYYMEojRI9bgvqQAkl6hm7ozQvqWPyQx+kULiatdHgkNM1QG4DQRx5N9BAzWSCJmt9mMV8/KsdgVg==
   dependencies:
     "@babel/runtime" "^7.12.13"
+
+react-compiler-runtime@19.0.0-beta-30d8a17-20250209:
+  version "19.0.0-beta-30d8a17-20250209"
+  resolved "https://registry.yarnpkg.com/react-compiler-runtime/-/react-compiler-runtime-19.0.0-beta-30d8a17-20250209.tgz#e7b903fcd36a999021d1e4a5789afcdbab4c5d40"
+  integrity sha512-lm42SAfsebXiA69sDBIWTFHDFuXWg0m75Fyvl+bzLyBbGKErnTbYfVsSrta811fdbK0A3j+RGjcHOEoRwWICOQ==
 
 react-compiler-runtime@19.0.0-beta-714736e-20250131:
   version "19.0.0-beta-714736e-20250131"
