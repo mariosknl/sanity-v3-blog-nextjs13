@@ -14,7 +14,7 @@
 		"@sanity/vision": "^3.0.6",
 		"@tailwindcss/line-clamp": "^0.4.2",
 		"next": "latest",
-		"next-sanity": "^9.0.0",
+		"next-sanity": "^10.0.0",
 		"react": "19.1.0",
 		"react-dom": "19.1.0",
 		"react-portable-text": "^0.6.0",
