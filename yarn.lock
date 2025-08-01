@@ -2827,7 +2827,7 @@
     "@sanity/client" "^7.8.1"
     "@sanity/media-library-types" "^1.0.0"
 
-"@sanity/ui@^2.0.0", "@sanity/ui@^2.11.6":
+"@sanity/ui@^2.11.6":
   version "2.16.12"
   resolved "https://registry.yarnpkg.com/@sanity/ui/-/ui-2.16.12.tgz#6a5e86453e7b5a8906d3329bf71ba5aa4afb6b54"
   integrity sha512-aAlsoYPM2MyvhsUKCvYvQ65oFFQH4KktB4crN0JL81qu915XKSYoXF/E2rge8EJCjaml18X3zFJLmwuP+XaCsw==
