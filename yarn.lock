@@ -2542,9 +2542,9 @@
     use-effect-event "^2.0.3"
 
 "@sanity/ui@^3.0.0", "@sanity/ui@^3.0.5":
-  version "3.0.5"
-  resolved "https://registry.yarnpkg.com/@sanity/ui/-/ui-3.0.5.tgz#99d01b41770143edf80bf5c6a743cab2fd3a3e3b"
-  integrity sha512-TnE4FM1ROn1cq6lywJDqdYpRVhGyKXT2K8a4jFpycgX90HXg5yLMBxuzZwnzRCJr/oB+NOevWZGZZY1fSlDTKg==
+  version "3.0.6"
+  resolved "https://registry.yarnpkg.com/@sanity/ui/-/ui-3.0.6.tgz#95253ffb6880ad480232b5b032d2b2402153373d"
+  integrity sha512-v2lr8FO40hGR/03dyMdKazMHuqs8uGTXra92I0CJcmoIIFlI3XPZbLaz8Lpb+lKWDFipkvZLnnB2Muf1e9vR+A==
   dependencies:
     "@floating-ui/react-dom" "^2.1.5"
     "@juggle/resize-observer" "^3.4.0"
