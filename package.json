@@ -19,7 +19,7 @@
 		"react-dom": "19.2.3",
 		"react-portable-text": "^0.6.0",
 		"sanity": "^5.0.0",
-		"sanity-plugin-iframe-pane": "^4.0.0",
+		"sanity-plugin-iframe-pane": "^5.0.0",
 		"styled-components": "^6.0.0"
 	},
 	"devDependencies": {
