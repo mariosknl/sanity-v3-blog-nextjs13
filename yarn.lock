@@ -2364,15 +2364,7 @@
   dependencies:
     "@portabletext/plugin-input-rule" "^2.0.7"
 
-"@portabletext/react@^6.0.0":
-  version "6.0.2"
-  resolved "https://registry.yarnpkg.com/@portabletext/react/-/react-6.0.2.tgz#d953b2a62d3f0f300056a8e00c8cbc73bbe5eae8"
-  integrity sha512-qE3/Fg8PqzGzZ6+lxVXKPDqthJTRG3T1R0R6wrUCVAYeC5e0JtXWwhOiWa0daLG9TEOwn2SUeB2SuWxQlTq+5g==
-  dependencies:
-    "@portabletext/toolkit" "^5.0.1"
-    "@portabletext/types" "^4.0.1"
-
-"@portabletext/react@^6.0.2":
+"@portabletext/react@^6.0.0", "@portabletext/react@^6.0.2":
   version "6.0.2"
   resolved "https://registry.yarnpkg.com/@portabletext/react/-/react-6.0.2.tgz#d953b2a62d3f0f300056a8e00c8cbc73bbe5eae8"
   integrity sha512-qE3/Fg8PqzGzZ6+lxVXKPDqthJTRG3T1R0R6wrUCVAYeC5e0JtXWwhOiWa0daLG9TEOwn2SUeB2SuWxQlTq+5g==
@@ -2917,11 +2909,11 @@
   integrity sha512-CAmQZnj+KM7FSEYiWlIGDit072syicYuAw0w7R2ctMzHiZ4p9mE/g6dBnYqrqFUrw2J+GpJgPt+RVspKP8vdqA==
 
 "@sanity/image-url@^2.0.0", "@sanity/image-url@^2.0.1":
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/@sanity/image-url/-/image-url-2.0.2.tgz#7f9c22f304ec002ad4b8e9b179ef2c981b42f31f"
-  integrity sha512-JnwFIHATLXHGVTCKmVwV0xy3xKwGlgVfeUB9cWxu72xJZMsQUyFgGiTz4zD9gRXuncAndkmtzHeIG+2vhKgxHA==
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/@sanity/image-url/-/image-url-2.0.3.tgz#58dfa1025c4b0f70b49d339e7d5ee55117d51cf2"
+  integrity sha512-A/vOugFw/ROGgSeSGB6nimO0c35x9KztatOPIIVlhkL+zsOfP7khigCbdJup2FSv6C03FX2XaUAhXojCxANl2Q==
   dependencies:
-    "@sanity/signed-urls" "^2.0.1"
+    "@sanity/signed-urls" "^2.0.2"
 
 "@sanity/import@^4.0.1":
   version "4.0.1"
@@ -3174,10 +3166,10 @@
     rxjs "^7.8.2"
     zustand "^5.0.4"
 
-"@sanity/signed-urls@^2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@sanity/signed-urls/-/signed-urls-2.0.1.tgz#740deb971796ba517598fa6c183dcbe177dbf8c5"
-  integrity sha512-/u++FnDbaXDWHiHxG1Q4rbGsKRPf6lmTKsXeZ3bbbty/kNHDhVRUA5mRA+TtXlbPrse4ksv3a2vAerKNUNDZOw==
+"@sanity/signed-urls@^2.0.2":
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@sanity/signed-urls/-/signed-urls-2.0.2.tgz#e97efbd0bf3b8eb531e58ef79f73a775f3b44d2d"
+  integrity sha512-w/Aq0JDYI44WC5w8mzJBAjCem8qlGrxGTzvNbUWwBfys6kSL+TZBSypV5waCc35XRgt0X5zdYZMJOrshcjJLFw==
   dependencies:
     "@noble/ed25519" "^3.0.0"
     "@noble/hashes" "^2.0.0"
