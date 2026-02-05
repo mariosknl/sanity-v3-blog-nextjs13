@@ -2340,7 +2340,7 @@
     prettier "^3.8.1"
     semver "^7.7.2"
 
-"@sanity/client@^7.11.2", "@sanity/client@^7.13.0", "@sanity/client@^7.13.2", "@sanity/client@^7.14.0", "@sanity/client@^7.2.1", "@sanity/client@^7.6.0":
+"@sanity/client@^7.11.2", "@sanity/client@^7.13.2", "@sanity/client@^7.14.0", "@sanity/client@^7.2.1", "@sanity/client@^7.6.0":
   version "7.14.0"
   resolved "https://registry.yarnpkg.com/@sanity/client/-/client-7.14.0.tgz#94d9f364a610bcc7519c07a754f1a37dbad36ebc"
   integrity sha512-eXue3rc4MqJh89mvuTC0h0pdoY8lwXjlV8odFB3EF7aSFKF7F5BL0NU2mlTrCZYbPAlV3JTvMPPLGJCORqOKDw==
@@ -2636,21 +2636,18 @@
     nanoid "^5.1.3"
     rxjs "^7.8.2"
 
-"@sanity/mutate@^0.16.1":
-  version "0.16.1"
-  resolved "https://registry.yarnpkg.com/@sanity/mutate/-/mutate-0.16.1.tgz#d73f3c209aa6c69381333ed4454f9b9b8c53c2e6"
-  integrity sha512-400OooNtiafgJEOCzj0E5atuWlaKp1z6LU/LB/xZUVVywNj3WuT52U6qeVOfGlZeWKhYMCdGFX2ZnMbIrME95w==
+"@sanity/mutator@5.8.0":
+  version "5.8.0"
+  resolved "https://registry.yarnpkg.com/@sanity/mutator/-/mutator-5.8.0.tgz#e1a67e101d2a0b7c7c84fc2dd1ee30d24b8f052a"
+  integrity sha512-/ggoENvo8evR9oGULT3t2BK+wu7Vd/7v6KoHxkmQ/hwf/yflnpyK8ESY68uI6aVvolAZR7ZyP9uVlQqYPzOjvQ==
   dependencies:
-    "@sanity/client" "^7.9.0"
     "@sanity/diff-match-patch" "^3.2.0"
+    "@sanity/types" "5.8.0"
     "@sanity/uuid" "^3.0.2"
-    hotscript "^1.0.13"
-    lodash "^4.17.21"
-    mendoza "^3.0.8"
-    nanoid "^5.1.3"
-    rxjs "^7.8.2"
+    debug "^4.4.3"
+    lodash-es "^4.17.22"
 
-"@sanity/mutator@5.4.0", "@sanity/mutator@^5.2.0":
+"@sanity/mutator@^5.2.0":
   version "5.4.0"
   resolved "https://registry.yarnpkg.com/@sanity/mutator/-/mutator-5.4.0.tgz#d467eeaae644b498c9351331e4ade9acf974692a"
   integrity sha512-rGrF73JpicTZQuCr7ROmYMJEqZ3GYHEXaj9yz7hRG+W87ao6cAeF05JdGk8CpjTSxBeL28qbphMLoWPEsUFB9w==
@@ -3150,10 +3147,10 @@
   dependencies:
     undici-types "~7.16.0"
 
-"@types/node@24.10.9":
-  version "24.10.9"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-24.10.9.tgz#1aeb5142e4a92957489cac12b07f9c7fe26057d0"
-  integrity sha512-ne4A0IpG3+2ETuREInjPNhUGis1SFjv1d5asp8MzEAGtOZeTeHVDOYqOgqfhvseqg/iXty2hjBf1zAOb7RNiNw==
+"@types/node@24.10.10":
+  version "24.10.10"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-24.10.10.tgz#ea4813a65368ca7a98dfd75c84d748831b63e1cf"
+  integrity sha512-+0/4J266CBGPUq/ELg7QUHhN25WYjE0wYTPSQJn1xeu8DOlIOPxXxrNGiLmfAWl7HMMgWFWXpt9IDjMWrF5Iow==
   dependencies:
     undici-types "~7.16.0"
 
@@ -3179,14 +3176,7 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react@*":
-  version "19.2.11"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-19.2.11.tgz#301b615ec33df67f6b0ba63f2b6aedce46cca0de"
-  integrity sha512-tORuanb01iEzWvMGVGv2ZDhYZVeRMrw453DCSAIn/5yvcSVnMoUMTyf33nQJLahYEnv9xqrTNbgz4qY5EfSh0g==
-  dependencies:
-    csstype "^3.2.2"
-
-"@types/react@19.2.11":
+"@types/react@*", "@types/react@19.2.11":
   version "19.2.11"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-19.2.11.tgz#301b615ec33df67f6b0ba63f2b6aedce46cca0de"
   integrity sha512-tORuanb01iEzWvMGVGv2ZDhYZVeRMrw453DCSAIn/5yvcSVnMoUMTyf33nQJLahYEnv9xqrTNbgz4qY5EfSh0g==
@@ -3690,15 +3680,10 @@ caniuse-lite@^1.0.30001406:
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001529.tgz#c1f2a411e85fdaace4b1560e1bad078b00ac3181"
   integrity sha512-n2pUQYGAkrLG4QYj2desAh+NqsJpHbNmVZz87imptDdxLAtjxary7Df/psdfyDGmskJK/9Dt9cPnx5RZ3CU4Og==
 
-caniuse-lite@^1.0.30001759:
+caniuse-lite@^1.0.30001759, caniuse-lite@^1.0.30001766:
   version "1.0.30001767"
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001767.tgz#0279c498e862efb067938bba0a0aabafe8d0b730"
   integrity sha512-34+zUAMhSH+r+9eKmYG+k2Rpt8XttfE4yXAjoZvkAPs15xcYQhyBYdalJ65BzivAvGRMViEjy6oKr/S91loekQ==
-
-caniuse-lite@^1.0.30001760:
-  version "1.0.30001762"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001762.tgz#e4dbfeda63d33258cdde93e53af2023a13ba27d4"
-  integrity sha512-PxZwGNvH7Ak8WX5iXzoK1KPZttBXNPuaOvI2ZYU7NrlM+d9Ov+TUvlLOBNGzVXAntMSMMlJPd+jY6ovrVjSmUw==
 
 cardinal@^2.1.1:
   version "2.1.1"
@@ -4630,12 +4615,21 @@ fraction.js@^5.3.4:
   resolved "https://registry.yarnpkg.com/fraction.js/-/fraction.js-5.3.4.tgz#8c0fcc6a9908262df4ed197427bdeef563e0699a"
   integrity sha512-1X1NTtiJphryn/uLQz3whtY6jK3fTqoE3ohKs0tT+Ujr1W59oopxmoEh7Lu5p6vBaPbgoM0bzveAW4Qi5RyWDQ==
 
-framer-motion@^12.26.2, framer-motion@^12.30.0:
+framer-motion@^12.30.0:
   version "12.30.0"
   resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-12.30.0.tgz#fa0af544255878901cfebc74f4df03a55a263f6d"
   integrity sha512-S7t3UjvghrFiJzFJ30ncX6keUipexw9f7DRpauhW9bXPNxg0dMxoPbNIDpLuxK1NvxF2wswFEMEm7WiNAcdELg==
   dependencies:
     motion-dom "^12.30.0"
+    motion-utils "^12.29.2"
+    tslib "^2.4.0"
+
+framer-motion@^12.31.0:
+  version "12.31.0"
+  resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-12.31.0.tgz#cf31462afa14301c90392439373ede9f8d96d77e"
+  integrity sha512-Tnd0FU05zGRFI3JJmBegXonF1rfuzYeuXd1QSdQ99Ysnppk0yWBWSW2wUsqzRpS5nv0zPNx+y0wtDj4kf0q5RQ==
+  dependencies:
+    motion-dom "^12.30.1"
     motion-utils "^12.29.2"
     tslib "^2.4.0"
 
@@ -5474,7 +5468,7 @@ locate-path@^8.0.0:
   dependencies:
     p-locate "^6.0.0"
 
-lodash-es@^4.17.21:
+lodash-es@^4.17.21, lodash-es@^4.17.23:
   version "4.17.23"
   resolved "https://registry.yarnpkg.com/lodash-es/-/lodash-es-4.17.23.tgz#58c4360fd1b5d33afc6c0bbd3d1149349b1138e0"
   integrity sha512-kVI48u3PZr38HdYz98UmfPnXl2DXrpdctLrFLCd3kOx1xUkOmpFPx7gCWWM5MPkL/fD8zb+Ph0QzjGFs4+hHWg==
@@ -5710,6 +5704,13 @@ motion-dom@^12.30.0:
   dependencies:
     motion-utils "^12.29.2"
 
+motion-dom@^12.30.1:
+  version "12.30.1"
+  resolved "https://registry.yarnpkg.com/motion-dom/-/motion-dom-12.30.1.tgz#407b428cc6e21cbd944f0a4810b19e89a7759fee"
+  integrity sha512-QXB+iFJRzZTqL+Am4a1CRoHdH+0Nq12wLdqQQZZsfHlp9AMt6PA098L/61oVZsDA+Ep3QSGudzpViyRrhYhGcQ==
+  dependencies:
+    motion-utils "^12.29.2"
+
 motion-utils@^12.29.2:
   version "12.29.2"
   resolved "https://registry.yarnpkg.com/motion-utils/-/motion-utils-12.29.2.tgz#8fdd28babe042c2456b078ab33b32daa3bf5938b"
@@ -5723,10 +5724,10 @@ motion@^12.23.24, motion@^12.29.2:
     framer-motion "^12.30.0"
     tslib "^2.4.0"
 
-motion@^12.25.0:
-  version "12.26.2"
-  resolved "https://registry.yarnpkg.com/motion/-/motion-12.26.2.tgz#f8d5ecd32fcca32275fa3ab072a7eaea17890356"
-  integrity sha512-2Q6g0zK1gUJKhGT742DAe42LgietcdiJ3L3OcYAHCQaC1UkLnn6aC8S/obe4CxYTLAgid2asS1QdQ/blYfo5dw==
+motion@^12.27.1:
+  version "12.31.0"
+  resolved "https://registry.yarnpkg.com/motion/-/motion-12.31.0.tgz#fcdfa50dadcf9623c05ce9a21be8628414dda1a8"
+  integrity sha512-KpZQik3LLFdsiaLdFXQGnty84KcDvvdvBCHSvA9aH+RjQTP6jkJGyngRPSngau13ARUI6TbPphf/Vv/QxwxRJQ==
   dependencies:
     framer-motion "^12.31.0"
     tslib "^2.4.0"
@@ -6422,7 +6423,7 @@ react-is@^16.13.1, react-is@^16.7.0:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
-react-is@^19.2.3:
+react-is@^19.2.3, react-is@^19.2.4:
   version "19.2.4"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-19.2.4.tgz#a080758243c572ccd4a63386537654298c99d135"
   integrity sha512-W+EWGn2v0ApPKgKKCy/7s7WHXkboGcsrXE+2joLyVxkbyVQfO3MUEaUQDHoSmb8TFFrSKYa9mw64WZHNHSDzYA==
@@ -7931,7 +7932,7 @@ xstate@^5.19.1, xstate@^5.23.0:
   resolved "https://registry.yarnpkg.com/xstate/-/xstate-5.25.1.tgz#8fa8187ab03a902cd5731d5d92f96f16c9aa838e"
   integrity sha512-oyvsNH5pF2qkHmiHEMdWqc3OjDtoZOH2MTAI35r01f/ZQWOD+VLOiYqo65UgQET0XMA5s9eRm8fnsIo+82biEw==
 
-xstate@^5.24.0, xstate@^5.25.0:
+xstate@^5.24.0, xstate@^5.25.0, xstate@^5.25.1:
   version "5.26.0"
   resolved "https://registry.yarnpkg.com/xstate/-/xstate-5.26.0.tgz#51dfd0f4db1ae82f9da6e7076c9431b72595108e"
   integrity sha512-Fvi9VBoqHgsGYLU2NTag8xDTWtKqUC0+ue7EAhBNBb06wf620QEy05upBaEI1VLMzIn63zugLV8nHb69ZUWYAA==
