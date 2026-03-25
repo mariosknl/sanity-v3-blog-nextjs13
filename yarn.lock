@@ -2744,14 +2744,6 @@
     "@sanity/client" "^7.6.0"
     "@sanity/media-library-types" "^1.0.0"
 
-"@sanity/types@^4.21.0":
-  version "4.22.0"
-  resolved "https://registry.yarnpkg.com/@sanity/types/-/types-4.22.0.tgz#c4f5894d906c7b3cb7d6b2d847d96a2291394b6c"
-  integrity sha512-VWAUc8Xtj4IipQt99SzudRldJWHfBVnde+g5qnLZ/Nc1MpFjGiRWu/3smRN5mPOqlrtUfrr0ho/fBZnjE1CEMg==
-  dependencies:
-    "@sanity/client" "^7.13.2"
-    "@sanity/media-library-types" "^1.0.1"
-
 "@sanity/ui@^3.0.0", "@sanity/ui@^3.1.11":
   version "3.1.13"
   resolved "https://registry.yarnpkg.com/@sanity/ui/-/ui-3.1.13.tgz#388ad6afa20049b8ffb3c7559879842a0515bc31"
@@ -6131,9 +6123,9 @@ postcss@8.4.49:
     source-map-js "^1.2.1"
 
 postcss@^8.4.18, postcss@^8.5.6:
-  version "8.5.6"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.5.6.tgz#2825006615a619b4f62a9e7426cc120b349a8f3c"
-  integrity sha512-3Ybi1tAuwAP9s0r1UQ2J4n5Y0G05bJkpUIO0/bI9MhwmD70S5aTWbXGBwxHrelT+XM1k6dM0pk+SwNkpTRN7Pg==
+  version "8.5.8"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.5.8.tgz#6230ecc8fb02e7a0f6982e53990937857e13f399"
+  integrity sha512-OW/rX8O/jXnm82Ey1k44pObPtdblfiuWnrd8X7GJ7emImCOstunGbXUpp7HdBrFQX6rJzn3sPT397Wp5aCwCHg==
   dependencies:
     nanoid "^3.3.11"
     picocolors "^1.1.1"
