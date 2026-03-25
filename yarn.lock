@@ -2946,22 +2946,7 @@
     "@sanity/client" "^7.6.0"
     "@sanity/media-library-types" "^1.0.0"
 
-"@sanity/ui@^3.0.0":
-  version "3.1.13"
-  resolved "https://registry.yarnpkg.com/@sanity/ui/-/ui-3.1.13.tgz#388ad6afa20049b8ffb3c7559879842a0515bc31"
-  integrity sha512-ImZ0sEMUQdKGSsz6d7vN7JwZEk+dPN7qGkcaRvh9EjkhX40uWgdjigGrNHMM8Liamy1rVclpfub4MC7J2Jvuxg==
-  dependencies:
-    "@floating-ui/react-dom" "^2.1.6"
-    "@juggle/resize-observer" "^3.4.0"
-    "@sanity/color" "^3.0.6"
-    "@sanity/icons" "^3.7.4"
-    csstype "^3.1.3"
-    motion "^12.23.24"
-    react-compiler-runtime "1.0.0"
-    react-refractor "^4.0.0"
-    use-effect-event "^2.0.3"
-
-"@sanity/ui@^3.1.11", "@sanity/ui@^3.1.14":
+"@sanity/ui@^3.0.0", "@sanity/ui@^3.1.11", "@sanity/ui@^3.1.14":
   version "3.1.14"
   resolved "https://registry.yarnpkg.com/@sanity/ui/-/ui-3.1.14.tgz#b34478870305337e125ba9f84c81d9ac28fce6aa"
   integrity sha512-wpmjQrxerWM0l5NAziazr7q/aUgJBkFHvkBhImlDCzL4teWYLsblFRujTdBHh9CpbcDDa27InQdOBV+RsFBiuw==
@@ -3240,10 +3225,10 @@
   dependencies:
     undici-types "~7.18.0"
 
-"@types/node@24.11.0":
-  version "24.11.0"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-24.11.0.tgz#34e8f9603ada03fdc36a532faefdb8e1bb3693a0"
-  integrity sha512-fPxQqz4VTgPI/IQ+lj9r0h+fDR66bzoeMGHp8ASee+32OSGIkeASsoZuJixsQoVef1QJbeubcPBxKk22QVoWdw==
+"@types/node@24.12.0":
+  version "24.12.0"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-24.12.0.tgz#6222e028210e5322e4f4f6767f8d88e5ea3b33d2"
+  integrity sha512-GYDxsZi3ChgmckRT9HPU0WEhKLP08ev/Yfcq2AstjrDASOYCSXeyjDsHg4v5t4jOj7cyDX3vmprafKlWIG9MXQ==
   dependencies:
     undici-types "~7.16.0"
 
