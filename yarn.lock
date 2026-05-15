@@ -2913,22 +2913,7 @@
     "@sanity/client" "^7.21.0"
     "@sanity/media-library-types" "^1.4.0"
 
-"@sanity/ui@^3.0.0":
-  version "3.1.14"
-  resolved "https://registry.yarnpkg.com/@sanity/ui/-/ui-3.1.14.tgz#b34478870305337e125ba9f84c81d9ac28fce6aa"
-  integrity sha512-wpmjQrxerWM0l5NAziazr7q/aUgJBkFHvkBhImlDCzL4teWYLsblFRujTdBHh9CpbcDDa27InQdOBV+RsFBiuw==
-  dependencies:
-    "@floating-ui/react-dom" "^2.1.6"
-    "@juggle/resize-observer" "^3.4.0"
-    "@sanity/color" "^3.0.6"
-    "@sanity/icons" "^3.7.4"
-    csstype "^3.1.3"
-    motion "^12.23.24"
-    react-compiler-runtime "1.0.0"
-    react-refractor "^4.0.0"
-    use-effect-event "^2.0.3"
-
-"@sanity/ui@^3.1.11", "@sanity/ui@^3.1.14":
+"@sanity/ui@^3.0.0", "@sanity/ui@^3.1.11", "@sanity/ui@^3.1.14":
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/@sanity/ui/-/ui-3.2.0.tgz#5491f8f7c6e145f1081357db6cf99af3d45962a1"
   integrity sha512-bWi2zz8ixZcGHh1YXsgliHRaA9Vw11V5lkJN6SGZcuvbrwPFm6j71Cc3jL1l2MQ11I0HmUYmQ5E76+cT4SznYA==
