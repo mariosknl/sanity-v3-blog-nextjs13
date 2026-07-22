@@ -2657,6 +2657,16 @@
     nanoid "^3.3.11"
     rxjs "^7.0.0"
 
+"@sanity/client@^7.24.0":
+  version "7.24.0"
+  resolved "https://registry.yarnpkg.com/@sanity/client/-/client-7.24.0.tgz#6fb396b9aba76d5123c1429c41cc21430def79e3"
+  integrity sha512-YfXm/MzcknFiOe4Y5nYIFEhqqYwrQaWt7f4Vy3sbt3ZbDbd8oMoPaQ/WeSSbWFkHV8RFm01dE16u4Z1VNude+g==
+  dependencies:
+    "@sanity/eventsource" "^5.0.4"
+    get-it "^8.8.0"
+    nanoid "^3.3.11"
+    rxjs "^7.0.0"
+
 "@sanity/codegen@^7.0.3":
   version "7.0.3"
   resolved "https://registry.yarnpkg.com/@sanity/codegen/-/codegen-7.0.3.tgz#b91712aeccd21ccda77eeeff16c118da8e78474b"
@@ -2741,6 +2751,16 @@
     event-source-polyfill "1.0.31"
     eventsource "2.0.2"
 
+"@sanity/eventsource@^5.0.4":
+  version "5.0.4"
+  resolved "https://registry.yarnpkg.com/@sanity/eventsource/-/eventsource-5.0.4.tgz#e99b04b7e59d44ad1a8e96fd6cbf8d7e4aa59578"
+  integrity sha512-NT6XrTJePJd7q1ZdTqB3NsTyNNOe9R2zMkg4Hlkqwb0LL6UmekVamAD46yjSJ+HbRyXAKLl1Rb65xZBdzC1f8Q==
+  dependencies:
+    "@types/event-source-polyfill" "1.0.5"
+    "@types/eventsource" "1.1.15"
+    event-source-polyfill "1.0.31"
+    eventsource "2.0.2"
+
 "@sanity/export@^6.2.0":
   version "6.2.0"
   resolved "https://registry.yarnpkg.com/@sanity/export/-/export-6.2.0.tgz#f1bd5ed41e8da5cf317d067f5c1253e2f5f76aad"
@@ -2762,11 +2782,6 @@
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/@sanity/generate-help-url/-/generate-help-url-4.0.0.tgz#3bf023b66254e4169bccd6ba5166195f120791dc"
   integrity sha512-Ooa4xkLT3TLaX+mw/13fq3IeGdnAkx4rbpVASvRVixzBBvvcL6jPqj50fjlCd+EhgB5GRXBCNNAy/hWXwjZEUA==
-
-"@sanity/icons@^3.0.0":
-  version "3.7.4"
-  resolved "https://registry.yarnpkg.com/@sanity/icons/-/icons-3.7.4.tgz#e992bc250d99b1b50c756a5f4751641021a646c1"
-  integrity sha512-O9MnckiDsphFwlRS8Q3kj3n+JYUZ0UzKRujnSikMZOKI0dayucRe4U2XvxikRhJnFhcEJXW2RkWJoBaCoup9Sw==
 
 "@sanity/icons@^3.7.4":
   version "3.8.0"
@@ -2850,6 +2865,11 @@
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/@sanity/media-library-types/-/media-library-types-1.4.0.tgz#9740bd8c56cc828741fe7b0e0843881412bee6f4"
   integrity sha512-DZwNT+dDSc1JPW4e7U5C+IJELq5IAeU2A1UcY1079gl+Hakx2USvu5LyY1hrjb1eifRPAhL8uwOVcMNBUmSmzg==
+
+"@sanity/media-library-types@^1.6.0":
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/@sanity/media-library-types/-/media-library-types-1.6.0.tgz#d3c8b8f0c5b858baa6c2ed76da723b233fa42178"
+  integrity sha512-1Nqw8GSUr7E8AFue9luyTOM4Ev0ZlJ35SHcQrHZ6T68G5llfXw99e3GkLXzk6qYFk9r9fJaBTSpW5IyO2mObZQ==
 
 "@sanity/message-protocol@^0.23.0":
   version "0.23.0"
@@ -3038,6 +3058,14 @@
     "@sanity/client" "^7.23.0"
     "@sanity/media-library-types" "^1.4.0"
 
+"@sanity/types@6.6.0":
+  version "6.6.0"
+  resolved "https://registry.yarnpkg.com/@sanity/types/-/types-6.6.0.tgz#102ad545c8257116e550b451cdf01a21be9599e8"
+  integrity sha512-CJxadjPS6CZNev/BZiV/E5S2UbRneW+QBbTa6z9bOxXX+gM6MP95a0/VXq8/GN/yp28tROz++fSyqXoxqIOgLg==
+  dependencies:
+    "@sanity/client" "^7.24.0"
+    "@sanity/media-library-types" "^1.6.0"
+
 "@sanity/ui@^3.0.0", "@sanity/ui@^3.2.0":
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/@sanity/ui/-/ui-3.2.0.tgz#5491f8f7c6e145f1081357db6cf99af3d45962a1"
@@ -3068,15 +3096,27 @@
     react-refractor "^4.0.0"
     use-effect-event "^2.0.3"
 
-"@sanity/util@5.31.1", "@sanity/util@^5.23.0":
-  version "5.31.1"
-  resolved "https://registry.yarnpkg.com/@sanity/util/-/util-5.31.1.tgz#f8cfdfe7e4b09b9db7c54a0c92086b79870310f3"
-  integrity sha512-+lPlOZ7cPKVQHOrt0u29clVnJuEmqcwKA1M+JtTgQVGjgbmev87n7HiMZ9zIswboSivWH0PUCuH1TDEvtBUtXQ==
+"@sanity/util@6.3.0":
+  version "6.3.0"
+  resolved "https://registry.yarnpkg.com/@sanity/util/-/util-6.3.0.tgz#53a8f1dbe144612bad31502a50d17e0d6e3b2b1d"
+  integrity sha512-VUA3Mzf3xiO4Zyhe2bXbYQYbK2SLdayn5ubQyu1a+DMbABe9eAWA1/CpapFYEgoJR3I2YED8owoQJid2yx70vg==
   dependencies:
     "@date-fns/tz" "^1.5.0"
     "@date-fns/utc" "^2.1.1"
     "@sanity/client" "^7.23.0"
     "@sanity/types" "6.3.0"
+    date-fns "^4.4.0"
+    rxjs "^7.8.2"
+
+"@sanity/util@^6.0.0":
+  version "6.6.0"
+  resolved "https://registry.yarnpkg.com/@sanity/util/-/util-6.6.0.tgz#ab87751dd81febc59e8c52cb735a930c4674a7d4"
+  integrity sha512-7wT8ULPm5D5QDRV0InOEXVerM4Gc1rnz/E55OPsDebOQgJ0tkE9AmEo9xpWPeV7PEXTtqkN/OtUYv0ZzX93aHg==
+  dependencies:
+    "@date-fns/tz" "^1.5.0"
+    "@date-fns/utc" "^2.1.1"
+    "@sanity/client" "^7.24.0"
+    "@sanity/types" "6.6.0"
     date-fns "^4.4.0"
     rxjs "^7.8.2"
 
@@ -4687,15 +4727,6 @@ framer-motion@^12.40.0, framer-motion@^12.42.2:
     motion-utils "^12.39.0"
     tslib "^2.4.0"
 
-framer-motion@^12.42.2:
-  version "12.42.2"
-  resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-12.42.2.tgz#8628ad31a9b5c1ea6f908ea1764784e33870b711"
-  integrity sha512-5XY9luDiu0oHfHBjpDthFMh0ES+122w6p/papSJBweMkO8Sn+PW2QaEgRblQBpWFnuvZS5qvarpt/hO2pjGmnw==
-  dependencies:
-    motion-dom "^12.42.2"
-    motion-utils "^12.39.0"
-    tslib "^2.4.0"
-
 fsevents@~2.3.2, fsevents@~2.3.3:
   version "2.3.3"
   resolved "https://registry.yarnpkg.com/fsevents/-/fsevents-2.3.3.tgz#cac6407785d03675a2a5e1a5305c697b347d90d6"
@@ -5736,19 +5767,12 @@ motion-dom@^12.42.2:
   dependencies:
     motion-utils "^12.39.0"
 
-motion-dom@^12.42.2:
-  version "12.42.2"
-  resolved "https://registry.yarnpkg.com/motion-dom/-/motion-dom-12.42.2.tgz#b4661b9b3394ae7e990d76dc954bc1e321c59305"
-  integrity sha512-5gIMWLp/PycBtJRJWRgjxke5n8dlvkSn2DrYW+tr3XcqAZY1xZh6BJyooJXCM8wdfM7wfMjkBJNLge1CKPUIRA==
-  dependencies:
-    motion-utils "^12.39.0"
-
 motion-utils@^12.39.0:
   version "12.39.0"
   resolved "https://registry.yarnpkg.com/motion-utils/-/motion-utils-12.39.0.tgz#e1c66f0e912999804bc5e69b4630c3bc794ef29f"
   integrity sha512-8nadJAJjTtqRkmRF36FoJTrywK9nnFmnPwnSMyxaOCU7GDjN9RTMJIxx9De8ErM+vpPhMccr/6fo5WciyQLnMQ==
 
-motion@^12.23.24, motion@^12.36.0:
+motion@^12.23.24:
   version "12.40.0"
   resolved "https://registry.yarnpkg.com/motion/-/motion-12.40.0.tgz#e993e9a3cba2d455163cd16138ee463a5de0537c"
   integrity sha512-yjrHUrBFW6kQvjJwRsoiPSAhC5tRwRqNGJWmiJ4CrGnbKp0V88AdzkhBmDoqIsIPfarOe0Uddd37Xq43/gIocA==
@@ -5756,7 +5780,7 @@ motion@^12.23.24, motion@^12.36.0:
     framer-motion "^12.40.0"
     tslib "^2.4.0"
 
-motion@^12.42.0:
+motion@^12.42.0, motion@^12.42.2:
   version "12.42.2"
   resolved "https://registry.yarnpkg.com/motion/-/motion-12.42.2.tgz#7a0954acb1975e1899ad65639a46fc12a3d24999"
   integrity sha512-Atvv11yUKIid41cVrRBDVX5m8tF8kNpExRSlbpt6APClhDjtwQssgFHhQzejxw7/7YYbjHSPKBVbHo05BuJT5Q==
