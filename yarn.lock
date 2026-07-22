@@ -2851,6 +2851,11 @@
   resolved "https://registry.yarnpkg.com/@sanity/media-library-types/-/media-library-types-1.4.0.tgz#9740bd8c56cc828741fe7b0e0843881412bee6f4"
   integrity sha512-DZwNT+dDSc1JPW4e7U5C+IJELq5IAeU2A1UcY1079gl+Hakx2USvu5LyY1hrjb1eifRPAhL8uwOVcMNBUmSmzg==
 
+"@sanity/media-library-types@^1.5.0":
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/@sanity/media-library-types/-/media-library-types-1.6.0.tgz#d3c8b8f0c5b858baa6c2ed76da723b233fa42178"
+  integrity sha512-1Nqw8GSUr7E8AFue9luyTOM4Ev0ZlJ35SHcQrHZ6T68G5llfXw99e3GkLXzk6qYFk9r9fJaBTSpW5IyO2mObZQ==
+
 "@sanity/message-protocol@^0.23.0":
   version "0.23.0"
   resolved "https://registry.yarnpkg.com/@sanity/message-protocol/-/message-protocol-0.23.0.tgz#0b83a46e9f1bfe4df28a01f9d397a00a9ec4fc5b"
@@ -3038,6 +3043,14 @@
     "@sanity/client" "^7.23.0"
     "@sanity/media-library-types" "^1.4.0"
 
+"@sanity/types@6.5.0":
+  version "6.5.0"
+  resolved "https://registry.yarnpkg.com/@sanity/types/-/types-6.5.0.tgz#f3f71bf14d2bd5be700c88e1d50730af9cf5dd45"
+  integrity sha512-H3Qs1yeizArl69i3VSDHC20RxLUNo/yWWmzUl2dMOtyooHPLOaKOUv8WrsH1gLg+w++LvuELfwEcxN431DRcnw==
+  dependencies:
+    "@sanity/client" "^7.23.0"
+    "@sanity/media-library-types" "^1.5.0"
+
 "@sanity/ui@^3.0.0", "@sanity/ui@^3.2.0":
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/@sanity/ui/-/ui-3.2.0.tgz#5491f8f7c6e145f1081357db6cf99af3d45962a1"
@@ -3068,15 +3081,27 @@
     react-refractor "^4.0.0"
     use-effect-event "^2.0.3"
 
-"@sanity/util@5.31.1", "@sanity/util@^5.23.0":
-  version "5.31.1"
-  resolved "https://registry.yarnpkg.com/@sanity/util/-/util-5.31.1.tgz#f8cfdfe7e4b09b9db7c54a0c92086b79870310f3"
-  integrity sha512-+lPlOZ7cPKVQHOrt0u29clVnJuEmqcwKA1M+JtTgQVGjgbmev87n7HiMZ9zIswboSivWH0PUCuH1TDEvtBUtXQ==
+"@sanity/util@6.3.0":
+  version "6.3.0"
+  resolved "https://registry.yarnpkg.com/@sanity/util/-/util-6.3.0.tgz#53a8f1dbe144612bad31502a50d17e0d6e3b2b1d"
+  integrity sha512-VUA3Mzf3xiO4Zyhe2bXbYQYbK2SLdayn5ubQyu1a+DMbABe9eAWA1/CpapFYEgoJR3I2YED8owoQJid2yx70vg==
   dependencies:
     "@date-fns/tz" "^1.5.0"
     "@date-fns/utc" "^2.1.1"
     "@sanity/client" "^7.23.0"
     "@sanity/types" "6.3.0"
+    date-fns "^4.4.0"
+    rxjs "^7.8.2"
+
+"@sanity/util@^6.0.0":
+  version "6.5.0"
+  resolved "https://registry.yarnpkg.com/@sanity/util/-/util-6.5.0.tgz#9fa0197ad8fbc85a0f4c4d8539d21ced55052d52"
+  integrity sha512-PlRAkAUZZUUUPk8drODqd2e34g3nTjob7n36/v7/IrfIo2ONk9yMYE+O9r9GhrOLwQHixjwGeg3RGzbMGbEL6w==
+  dependencies:
+    "@date-fns/tz" "^1.5.0"
+    "@date-fns/utc" "^2.1.1"
+    "@sanity/client" "^7.23.0"
+    "@sanity/types" "6.5.0"
     date-fns "^4.4.0"
     rxjs "^7.8.2"
 
@@ -4687,15 +4712,6 @@ framer-motion@^12.40.0, framer-motion@^12.42.2:
     motion-utils "^12.39.0"
     tslib "^2.4.0"
 
-framer-motion@^12.42.2:
-  version "12.42.2"
-  resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-12.42.2.tgz#8628ad31a9b5c1ea6f908ea1764784e33870b711"
-  integrity sha512-5XY9luDiu0oHfHBjpDthFMh0ES+122w6p/papSJBweMkO8Sn+PW2QaEgRblQBpWFnuvZS5qvarpt/hO2pjGmnw==
-  dependencies:
-    motion-dom "^12.42.2"
-    motion-utils "^12.39.0"
-    tslib "^2.4.0"
-
 fsevents@~2.3.2, fsevents@~2.3.3:
   version "2.3.3"
   resolved "https://registry.yarnpkg.com/fsevents/-/fsevents-2.3.3.tgz#cac6407785d03675a2a5e1a5305c697b347d90d6"
@@ -5736,19 +5752,12 @@ motion-dom@^12.42.2:
   dependencies:
     motion-utils "^12.39.0"
 
-motion-dom@^12.42.2:
-  version "12.42.2"
-  resolved "https://registry.yarnpkg.com/motion-dom/-/motion-dom-12.42.2.tgz#b4661b9b3394ae7e990d76dc954bc1e321c59305"
-  integrity sha512-5gIMWLp/PycBtJRJWRgjxke5n8dlvkSn2DrYW+tr3XcqAZY1xZh6BJyooJXCM8wdfM7wfMjkBJNLge1CKPUIRA==
-  dependencies:
-    motion-utils "^12.39.0"
-
 motion-utils@^12.39.0:
   version "12.39.0"
   resolved "https://registry.yarnpkg.com/motion-utils/-/motion-utils-12.39.0.tgz#e1c66f0e912999804bc5e69b4630c3bc794ef29f"
   integrity sha512-8nadJAJjTtqRkmRF36FoJTrywK9nnFmnPwnSMyxaOCU7GDjN9RTMJIxx9De8ErM+vpPhMccr/6fo5WciyQLnMQ==
 
-motion@^12.23.24, motion@^12.36.0:
+motion@^12.23.24:
   version "12.40.0"
   resolved "https://registry.yarnpkg.com/motion/-/motion-12.40.0.tgz#e993e9a3cba2d455163cd16138ee463a5de0537c"
   integrity sha512-yjrHUrBFW6kQvjJwRsoiPSAhC5tRwRqNGJWmiJ4CrGnbKp0V88AdzkhBmDoqIsIPfarOe0Uddd37Xq43/gIocA==
@@ -5756,7 +5765,7 @@ motion@^12.23.24, motion@^12.36.0:
     framer-motion "^12.40.0"
     tslib "^2.4.0"
 
-motion@^12.42.0:
+motion@^12.42.0, motion@^12.42.2:
   version "12.42.2"
   resolved "https://registry.yarnpkg.com/motion/-/motion-12.42.2.tgz#7a0954acb1975e1899ad65639a46fc12a3d24999"
   integrity sha512-Atvv11yUKIid41cVrRBDVX5m8tF8kNpExRSlbpt6APClhDjtwQssgFHhQzejxw7/7YYbjHSPKBVbHo05BuJT5Q==
@@ -5794,10 +5803,10 @@ nanoid@^3.3.11:
   resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.3.13.tgz#d9666aa3eb9cebba69b0f8f9b84e509d46933deb"
   integrity sha512-sPdqC6ByMVVGvF1ynvvMo0/o+oD1VX7DaHhijt1bFgjvBkHBib4t49GoNDhf2NDta4oeUNlaGbSt5K7qjZ955Q==
 
-nanoid@^3.3.12:
-  version "3.3.15"
-  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.3.15.tgz#36c490fad8c6e86c824c940dfdde999b69ed4316"
-  integrity sha512-y7Wygv/7mEOvxTuEQDB8StXdMRBWf1kR/tlhAzBRUFkB2jfcLOAxO/SHmOO2zgz1pVgK29/kyupn059/bCHdjA==
+nanoid@^3.3.16:
+  version "3.3.16"
+  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.3.16.tgz#a04d8ec4b1f10009d2d533947aefe4293737816c"
+  integrity sha512-bzlKTyNJ7+LdGIIwy8ijFpIqEQIvafahV7eYykJ8Cvh42EdJeODoJ6gUJXpQJvej1BddH8OqTXZNE/KfbWAu8Q==
 
 nanoid@^3.3.4:
   version "3.3.6"
@@ -6181,11 +6190,11 @@ postcss@8.4.14:
     source-map-js "^1.0.2"
 
 postcss@^8.4.18, postcss@^8.5.16:
-  version "8.5.16"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.5.16.tgz#1230ce0b5df354c24c0ea45f99ce5f6a88279d28"
-  integrity sha512-vuwillviilfKZsg0VGj5R/YwwcHx4SLsIOI/7K6mQkWx+l5cUHTjj5g0AasTBcyXsbfTgrwsUNmVUb5xVwyPwg==
+  version "8.5.22"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.5.22.tgz#086a0d5685a715acf5950ebbcb1538faf3051697"
+  integrity sha512-KBDEIpLrvpv16pp3K0Fw+UCoZfopFjjgeB+0tA/aaThfEE74kKDLrgg603YvOWJyg3+WYtyq3xYsQWsIyZlPqQ==
   dependencies:
-    nanoid "^3.3.12"
+    nanoid "^3.3.16"
     picocolors "^1.1.1"
     source-map-js "^1.2.1"
 
