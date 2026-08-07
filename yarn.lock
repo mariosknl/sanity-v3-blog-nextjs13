@@ -1439,6 +1439,13 @@
   dependencies:
     "@floating-ui/utils" "^0.2.11"
 
+"@floating-ui/core@^1.8.0":
+  version "1.8.0"
+  resolved "https://registry.yarnpkg.com/@floating-ui/core/-/core-1.8.0.tgz#d01c0bbea02e4a57f6fd7d5de6fc2c5c7dca40e1"
+  integrity sha512-0CIZ5itps/8x7BG8dEIhs53BvCUH2PCoogtakwRTut+Arm58sJooJ0AuZhLw2HJYIR5cMLNPBSS728sPho2khQ==
+  dependencies:
+    "@floating-ui/utils" "^0.2.12"
+
 "@floating-ui/dom@^1.7.6":
   version "1.7.6"
   resolved "https://registry.yarnpkg.com/@floating-ui/dom/-/dom-1.7.6.tgz#f915bba5abbb177e1f227cacee1b4d0634b187bf"
@@ -1447,6 +1454,14 @@
     "@floating-ui/core" "^1.7.5"
     "@floating-ui/utils" "^0.2.11"
 
+"@floating-ui/dom@^1.8.0":
+  version "1.8.0"
+  resolved "https://registry.yarnpkg.com/@floating-ui/dom/-/dom-1.8.0.tgz#8a20e6facbe2456afdbeb6c8b968a72df689cf63"
+  integrity sha512-yXSrzeHZBTZadLOlfyhCkJHNeLJnHRnRInwdZ40L7ZiaAtrBwoYlsDrX3v5zB1Utk7CLfzcOVnVVWoXEky7Ceg==
+  dependencies:
+    "@floating-ui/core" "^1.8.0"
+    "@floating-ui/utils" "^0.2.12"
+
 "@floating-ui/react-dom@^2.1.6":
   version "2.1.8"
   resolved "https://registry.yarnpkg.com/@floating-ui/react-dom/-/react-dom-2.1.8.tgz#5fb5a20d10aafb9505f38c24f38d00c8e1598893"
@@ -1454,10 +1469,22 @@
   dependencies:
     "@floating-ui/dom" "^1.7.6"
 
+"@floating-ui/react-dom@^2.1.9":
+  version "2.1.9"
+  resolved "https://registry.yarnpkg.com/@floating-ui/react-dom/-/react-dom-2.1.9.tgz#f42a5f469ea56d6f2e2751efa1cf936243a87355"
+  integrity sha512-JDjEFGCpImxDCA7JJKviA0M9+RtmJdj0m/NVU5IMgBK+AmZouAQQ7/+2GLH0GXXY0YMw9oXPB8hKdbPYg5QLYg==
+  dependencies:
+    "@floating-ui/dom" "^1.8.0"
+
 "@floating-ui/utils@^0.2.11":
   version "0.2.11"
   resolved "https://registry.yarnpkg.com/@floating-ui/utils/-/utils-0.2.11.tgz#a269e055e40e2f45873bae9d1a2fdccbd314ea3f"
   integrity sha512-RiB/yIh78pcIxl6lLMG0CgBXAZ2Y0eVHqMPYugu+9U0AeT6YBeiJpf7lbdJNIugFP5SIjwNRgo4DhR1Qxi26Gg==
+
+"@floating-ui/utils@^0.2.12":
+  version "0.2.12"
+  resolved "https://registry.yarnpkg.com/@floating-ui/utils/-/utils-0.2.12.tgz#afefe785949f16ac4cdd1e695935a321572dd56a"
+  integrity sha512-HpCo8tmWzLVad5s2d19EhAz5zqrrQ6s69qd6moPMQvkOuSwDT1YgRfWSVuc4ennqrgv3OHppiOGMQ7oC13yIww==
 
 "@heroicons/react@^2.0.13":
   version "2.2.0"
@@ -2699,6 +2726,11 @@
   resolved "https://registry.yarnpkg.com/@sanity/color/-/color-3.0.6.tgz#4d1eb69583c9d5ad8d44503cd714d67cc0ae1e86"
   integrity sha512-2TjYEvOftD0v7ukx3Csdh9QIu44P2z7NDJtlC3qITJRYV36J7R6Vfd3trVhFnN77/7CZrGjqngrtohv8VqO5nw==
 
+"@sanity/color@^3.0.8":
+  version "3.0.8"
+  resolved "https://registry.yarnpkg.com/@sanity/color/-/color-3.0.8.tgz#c337f5532ddef9be306c243178acd9f0f24fd9d2"
+  integrity sha512-MBQ082q7GRvzSH7Xzx4ul1Kxm/AEKDgwTz5cd13oXIlenl3VAM0Un0QpeTjkC5IZTC7SHbnhwkgoVHTZDz9WKQ==
+
 "@sanity/comlink@^4.0.1":
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/@sanity/comlink/-/comlink-4.0.1.tgz#03381165dfe40d57b2d416bb6d9b269ea1285243"
@@ -2788,7 +2820,7 @@
   resolved "https://registry.yarnpkg.com/@sanity/icons/-/icons-3.8.0.tgz#20c83dd37c8b158b6f9ca41ce064165d63d16ff3"
   integrity sha512-LXa8eoE6U2e46L/9Pk6VU1aOWNxEqEG1osTb2YWItPIAa8MyXkICRwdNRWwW3kr5gmf+Sh2ZmfKol/Q+oGKSqw==
 
-"@sanity/icons@^5.0.0":
+"@sanity/icons@^5.0.0", "@sanity/icons@^5.2.1":
   version "5.2.1"
   resolved "https://registry.yarnpkg.com/@sanity/icons/-/icons-5.2.1.tgz#795f9d311316c96221fdd2edbbada55d436ffe84"
   integrity sha512-P5gY1HRungh4RgCcypdIpu/SKoTwRBTttpbHntZjdW1MO3MK6xEOs+pbAzSARyhh22OcN9PkBBEYk2FL34BvfQ==
@@ -3067,17 +3099,18 @@
     "@sanity/media-library-types" "^1.6.0"
 
 "@sanity/ui@^3.0.0", "@sanity/ui@^3.2.0":
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/@sanity/ui/-/ui-3.2.0.tgz#5491f8f7c6e145f1081357db6cf99af3d45962a1"
-  integrity sha512-bWi2zz8ixZcGHh1YXsgliHRaA9Vw11V5lkJN6SGZcuvbrwPFm6j71Cc3jL1l2MQ11I0HmUYmQ5E76+cT4SznYA==
+  version "3.5.1"
+  resolved "https://registry.yarnpkg.com/@sanity/ui/-/ui-3.5.1.tgz#94f1d83f38069232949754575aad01ec53563d7c"
+  integrity sha512-lssD6rU4q3JD/HI5Sqqwd8gLLOsH+aIAfmTLiT8WeL2BKKL6GYmzzq0JGMyZStKXbrUpI53qI5UghwHOp9IFGQ==
   dependencies:
-    "@floating-ui/react-dom" "^2.1.6"
+    "@floating-ui/react-dom" "^2.1.9"
     "@juggle/resize-observer" "^3.4.0"
-    "@sanity/color" "^3.0.6"
-    "@sanity/icons" "^3.7.4"
-    csstype "^3.1.3"
-    motion "^12.23.24"
+    "@sanity/color" "^3.0.8"
+    "@sanity/icons" "^5.2.1"
+    csstype "^3.2.3"
+    motion "^12.43.0"
     react-compiler-runtime "1.0.0"
+    react-is "^19.2.8"
     react-refractor "^4.0.0"
     use-effect-event "^2.0.3"
 
@@ -3341,9 +3374,9 @@
   integrity sha512-XQmGcbnxUNa06HR3VBVkc9+A2Vpi9ZyLJcdS5dwaQQ/4ZMWFO+5c90FnMUpbtMZwB/FChoYHwuVg8TvkECacTA==
 
 "@types/hast@^3.0.0":
-  version "3.0.4"
-  resolved "https://registry.yarnpkg.com/@types/hast/-/hast-3.0.4.tgz#1d6b39993b82cea6ad783945b0508c25903e15aa"
-  integrity sha512-WPs+bbQw5aCj+x6laNGWLH3wviHtoCv/P3+otBhbOhJgG8qtpdAMlTCxLtsTWA7LH1Oh/bFCHsBn0TPS5m30EQ==
+  version "3.0.5"
+  resolved "https://registry.yarnpkg.com/@types/hast/-/hast-3.0.5.tgz#48020de4c0e63492f4ca9db42068c108f68b7f8f"
+  integrity sha512-rp/ezSWaD1m44dPKICGhiskI13nVr7qTloFwDa/IYkhhf5nzwP+zIQcIJh3WIFSBOy/H1PzB40jPjMDksN4F+g==
   dependencies:
     "@types/unist" "*"
 
@@ -4182,7 +4215,7 @@ cssstyle@^6.0.1:
     css-tree "^3.1.0"
     lru-cache "^11.2.6"
 
-csstype@3.2.3, csstype@^3.1.3, csstype@^3.2.2:
+csstype@3.2.3, csstype@^3.1.3, csstype@^3.2.2, csstype@^3.2.3:
   version "3.2.3"
   resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.2.3.tgz#ec48c0f3e993e50648c86da559e2610995cf989a"
   integrity sha512-z1HGKcYy2xA8AGQfwrn0PAy+PB7X/GSj3UVJW9qKyn43xWa+gl5nXmU4qqLMRzWVLFC8KusUX8T/0kCiOYpAIQ==
@@ -5804,7 +5837,7 @@ motion@^12.42.0:
     framer-motion "^12.42.2"
     tslib "^2.4.0"
 
-motion@^12.42.2:
+motion@^12.42.2, motion@^12.43.0:
   version "12.43.0"
   resolved "https://registry.yarnpkg.com/motion/-/motion-12.43.0.tgz#6f68b70aeb48045a294617d3673f3a997fea3bd7"
   integrity sha512-BQgQbSa9Hn3/mtbib0MK53y6JSANa+YKUKlaYnWzAVDH424RYQ5LVpV3pNiWH00BA2z4ojsSdMzqT7g2FQwjuQ==
@@ -6391,6 +6424,11 @@ react-is@^19.2.6, react-is@^19.2.7:
   version "19.2.7"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-19.2.7.tgz#57668ee86a78574a542b0a539455212b2c086df2"
   integrity sha512-kZFnouyVv7eP/Phmrlo9FK+zcAdriZJvzxXHF1Sl1P377WSGe2G/JxVolhTrB/jeV47lKImhNUsijjHAAbcl/A==
+
+react-is@^19.2.8:
+  version "19.2.8"
+  resolved "https://registry.yarnpkg.com/react-is/-/react-is-19.2.8.tgz#09826f9fbc187bc668e3e5c62edc001f804d5018"
+  integrity sha512-s5un28nYxKJw5gvUHyW5PCC28CvBqLu9r3cWgzHT4Vo/5fqqkFcdRYsGcKf50WMPpjjFZS5d76fn3YCo2njKwQ==
 
 react-portable-text@^0.6.0:
   version "0.6.0"
