@@ -2963,7 +2963,7 @@
     "@sanity/client" "^7.26.0"
     "@sanity/media-library-types" "^1.6.0"
 
-"@sanity/ui@^3.0.0", "@sanity/ui@^3.4.3", "@sanity/ui@^3.5.1":
+"@sanity/ui@^3.4.3", "@sanity/ui@^3.5.1":
   version "3.5.4"
   resolved "https://registry.yarnpkg.com/@sanity/ui/-/ui-3.5.4.tgz#d7c4af1ec58515f63192d782557f04b894893bf1"
   integrity sha512-YFFUfcrYWVa/54nmwetifJl3m41D+aZp+fcszCPjzB2Y7dH9Q8llY//MHKc4Xwgk6ujANgqtPkVAYTMLE/g4uQ==
@@ -2979,7 +2979,7 @@
     react-refractor "^4.0.0"
     use-effect-event "^2.0.4"
 
-"@sanity/ui@^4.0.4":
+"@sanity/ui@^4.0.0", "@sanity/ui@^4.0.4":
   version "4.0.7"
   resolved "https://registry.yarnpkg.com/@sanity/ui/-/ui-4.0.7.tgz#c89294aaf7dbd1ffbaeadd999257bd3dd395e968"
   integrity sha512-hdXAqZDlctHUKVH7UJmQpCgeHefVjDIa3b6QUkCiLxS+tPhlRvNjOJRB32HAftWNw7scS6aJhXlqJp2/KvH8SA==
@@ -4682,15 +4682,6 @@ framer-motion@^13.2.0:
     motion-utils "^13.0.0"
     tslib "^2.4.0"
 
-framer-motion@^13.2.0:
-  version "13.2.0"
-  resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-13.2.0.tgz#e531f00950f590d5ac0e905a355b8af4ca3923b0"
-  integrity sha512-9E33ebgMaO33w1nN/jEdW8z3/GO483fMi4rqbMG9rt83XgW9QLKRe4NcmJ8s+fQ3O34++UHrIQwlIWGIWTITjA==
-  dependencies:
-    motion-dom "^13.2.0"
-    motion-utils "^13.0.0"
-    tslib "^2.4.0"
-
 fsevents@~2.3.2, fsevents@~2.3.3:
   version "2.3.3"
   resolved "https://registry.yarnpkg.com/fsevents/-/fsevents-2.3.3.tgz#cac6407785d03675a2a5e1a5305c697b347d90d6"
@@ -5684,13 +5675,6 @@ motion-dom@^13.2.0:
   dependencies:
     motion-utils "^13.0.0"
 
-motion-dom@^13.2.0:
-  version "13.2.0"
-  resolved "https://registry.yarnpkg.com/motion-dom/-/motion-dom-13.2.0.tgz#d13d09accabdd6775d3bb981895fa2b8b6c07735"
-  integrity sha512-N6gdSoWRDk0Rh/fVtlqUtLs+fEN3ELFZI3cn3IQE9Mnf3E+Mh8wjO6MstzCOPFh4Yf0L1as5m2eUyYWj8ylVSQ==
-  dependencies:
-    motion-utils "^13.0.0"
-
 motion-utils@^12.39.0:
   version "12.39.0"
   resolved "https://registry.yarnpkg.com/motion-utils/-/motion-utils-12.39.0.tgz#e1c66f0e912999804bc5e69b4630c3bc794ef29f"
@@ -5707,14 +5691,6 @@ motion@^12.43.0:
   integrity sha512-BQgQbSa9Hn3/mtbib0MK53y6JSANa+YKUKlaYnWzAVDH424RYQ5LVpV3pNiWH00BA2z4ojsSdMzqT7g2FQwjuQ==
   dependencies:
     framer-motion "^12.43.0"
-    tslib "^2.4.0"
-
-motion@^13.1.1:
-  version "13.2.0"
-  resolved "https://registry.yarnpkg.com/motion/-/motion-13.2.0.tgz#c133219098fb28c1b3cd672d987121ff6e250d38"
-  integrity sha512-4Hrb5vD6HhjFstLUiCmWvtpsw+WTpP4R+QXfSDYZBz7+uxE/LrRg3aV0ReJxHrTRffHhbIE6svEqnotngXvesQ==
-  dependencies:
-    framer-motion "^13.2.0"
     tslib "^2.4.0"
 
 motion@^13.1.0, motion@^13.1.1:
