@@ -2973,15 +2973,7 @@
     "@sanity/client" "^7.26.0"
     "@sanity/media-library-types" "^1.6.0"
 
-"@sanity/types@^6.11.0":
-  version "6.12.0"
-  resolved "https://registry.yarnpkg.com/@sanity/types/-/types-6.12.0.tgz#03e476bfda1482a9556e46ad4ffaa2b186a5c0ef"
-  integrity sha512-0YU7ats291VBfCa3g+COzxxzw/EUm6AED+lj5CEs5Kh8tZkmXksIdgJp8sonLdu9ZQLydiXg08jvEP8LHtfKjw==
-  dependencies:
-    "@sanity/client" "^8.4.0"
-    "@sanity/media-library-types" "^1.6.0"
-
-"@sanity/ui@^3.0.0", "@sanity/ui@^3.5.1":
+"@sanity/ui@^3.4.3", "@sanity/ui@^3.5.1":
   version "3.5.4"
   resolved "https://registry.yarnpkg.com/@sanity/ui/-/ui-3.5.4.tgz#d7c4af1ec58515f63192d782557f04b894893bf1"
   integrity sha512-YFFUfcrYWVa/54nmwetifJl3m41D+aZp+fcszCPjzB2Y7dH9Q8llY//MHKc4Xwgk6ujANgqtPkVAYTMLE/g4uQ==
