@@ -2627,17 +2627,16 @@
     groq-js "^1.30.2"
 
 "@sanity/icons@^5.0.0", "@sanity/icons@^5.2.1":
-  version "5.2.1"
-  resolved "https://registry.yarnpkg.com/@sanity/icons/-/icons-5.2.1.tgz#795f9d311316c96221fdd2edbbada55d436ffe84"
-  integrity sha512-P5gY1HRungh4RgCcypdIpu/SKoTwRBTttpbHntZjdW1MO3MK6xEOs+pbAzSARyhh22OcN9PkBBEYk2FL34BvfQ==
+  version "5.2.2"
+  resolved "https://registry.yarnpkg.com/@sanity/icons/-/icons-5.2.2.tgz#5cc195040fdfc404018bf348944ddf013d9848df"
+  integrity sha512-v+5dMjYJ6pC4x8IS/4O/GvQBet5GqsXsqJxBiiS6WHZt21EgntpW+q5hxU3dO4q/njiyR8O1JsdLAs3NranoXA==
 
 "@sanity/id-utils@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@sanity/id-utils/-/id-utils-1.0.0.tgz#3bc48bf8c9f5911cd90dee79a455e55ba540b7b7"
-  integrity sha512-2sb7tbdMDuUuVyocJPKG0gZBiOML/ovCe+mJiLrv1j69ODOfa2LfUjDVR+dRw/A/+XuxoJSSP8ebG7NiwTOgIA==
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@sanity/id-utils/-/id-utils-1.1.0.tgz#58c342c06e1422b67d818482fc105ba7a3d7307b"
+  integrity sha512-A+DujVHCO3/+0DuzinmfCRQacIWVIherK0AHqFDoDOSgxx+Bur1kLhzX8fn7PdB2uZilxu2zWOr+UaGcj5zGbA==
   dependencies:
     "@sanity/uuid" "^3.0.2"
-    lodash "^4.17.21"
     ts-brand "^0.2.0"
 
 "@sanity/image-url@^0.140.15":
@@ -5392,7 +5391,7 @@ lodash.isplainobject@^4.0.0:
   resolved "https://registry.yarnpkg.com/lodash.isplainobject/-/lodash.isplainobject-4.0.6.tgz#7c526a52d89b45c45cc690b88163be0497f550cb"
   integrity sha512-oSXzaWypCMHkPC3NvBEaPHf0KsA5mvPrOPgQWDsbg8n7orZ290M0BmC/jgRZ4vcJ6DTAhjrsSYgdsW/F+MFOBA==
 
-lodash@^4.17.21, lodash@^4.18.1:
+lodash@^4.18.1:
   version "4.18.1"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.18.1.tgz#ff2b66c1f6326d59513de2407bf881439812771c"
   integrity sha512-dMInicTPVE8d1e5otfwmmjlxkZoUpiVLwyeTdUsi/Caj/gfzzblBcCE5sRHV/AsjuCmxWrte2TNGSYuCeCq+0Q==
