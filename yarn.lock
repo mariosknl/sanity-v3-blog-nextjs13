@@ -2631,6 +2631,11 @@
   resolved "https://registry.yarnpkg.com/@sanity/icons/-/icons-5.2.1.tgz#795f9d311316c96221fdd2edbbada55d436ffe84"
   integrity sha512-P5gY1HRungh4RgCcypdIpu/SKoTwRBTttpbHntZjdW1MO3MK6xEOs+pbAzSARyhh22OcN9PkBBEYk2FL34BvfQ==
 
+"@sanity/icons@^5.2.2":
+  version "5.2.2"
+  resolved "https://registry.yarnpkg.com/@sanity/icons/-/icons-5.2.2.tgz#5cc195040fdfc404018bf348944ddf013d9848df"
+  integrity sha512-v+5dMjYJ6pC4x8IS/4O/GvQBet5GqsXsqJxBiiS6WHZt21EgntpW+q5hxU3dO4q/njiyR8O1JsdLAs3NranoXA==
+
 "@sanity/id-utils@^1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@sanity/id-utils/-/id-utils-1.0.0.tgz#3bc48bf8c9f5911cd90dee79a455e55ba540b7b7"
@@ -2899,16 +2904,18 @@
     "@sanity/media-library-types" "^1.4.0"
 
 "@sanity/ui@^4.0.0", "@sanity/ui@^4.0.4", "@sanity/ui@^4.0.7":
-  version "4.0.7"
-  resolved "https://registry.yarnpkg.com/@sanity/ui/-/ui-4.0.7.tgz#c89294aaf7dbd1ffbaeadd999257bd3dd395e968"
-  integrity sha512-hdXAqZDlctHUKVH7UJmQpCgeHefVjDIa3b6QUkCiLxS+tPhlRvNjOJRB32HAftWNw7scS6aJhXlqJp2/KvH8SA==
+  version "4.2.1"
+  resolved "https://registry.yarnpkg.com/@sanity/ui/-/ui-4.2.1.tgz#67cddf1196b8e87d98a562d79de7a40ff50878ec"
+  integrity sha512-pBuSBo3k6ZSoVjmd8j5qs0bNC/K0LRQk8P5LfV1+EQHVcw3gCZjCXEBiVwqNdrRh2CP3AxWMUyDv16HcuunWyw==
   dependencies:
     "@floating-ui/react-dom" "^2.1.9"
     "@sanity/color" "^3.0.8"
-    "@sanity/icons" "^5.2.1"
+    "@sanity/icons" "^5.2.2"
+    "@vanilla-extract/dynamic" "^2.1.5"
+    clsx "^2.1.1"
     csstype "^3.2.3"
-    motion "^13.1.1"
-    react-is "^19.2.8"
+    motion "^13.2.0"
+    react-is "^19.3.0"
     react-refractor "^4.0.0"
     use-effect-event "^2.0.4"
 
@@ -5547,7 +5554,7 @@ motion-utils@^13.0.0:
   resolved "https://registry.yarnpkg.com/motion-utils/-/motion-utils-13.0.0.tgz#b2e4dbe21e5488032592f0b0d4e0b7b776466dfa"
   integrity sha512-7DnN7TmbLcYXcG4RVadXIihWlyuM9afoUww8Y5Agg431kGKiuL2/OMyP4mJ5wLz+pvN3t5ySClLOaVXJ+wekRQ==
 
-motion@^13.1.0, motion@^13.1.1:
+motion@^13.1.0, motion@^13.1.1, motion@^13.2.0:
   version "13.2.0"
   resolved "https://registry.yarnpkg.com/motion/-/motion-13.2.0.tgz#c133219098fb28c1b3cd672d987121ff6e250d38"
   integrity sha512-4Hrb5vD6HhjFstLUiCmWvtpsw+WTpP4R+QXfSDYZBz7+uxE/LrRg3aV0ReJxHrTRffHhbIE6svEqnotngXvesQ==
@@ -6085,6 +6092,11 @@ react-is@^19.2.7, react-is@^19.2.8:
   version "19.2.8"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-19.2.8.tgz#09826f9fbc187bc668e3e5c62edc001f804d5018"
   integrity sha512-s5un28nYxKJw5gvUHyW5PCC28CvBqLu9r3cWgzHT4Vo/5fqqkFcdRYsGcKf50WMPpjjFZS5d76fn3YCo2njKwQ==
+
+react-is@^19.3.0:
+  version "19.3.0"
+  resolved "https://registry.yarnpkg.com/react-is/-/react-is-19.3.0.tgz#716028d67e9993d23a2d353c6d08a3c1ef2bbeb4"
+  integrity sha512-UpMYezM4v5/18F28aC66AEsjXIgE02kyEMH6yLdgLXu/UTfa1Ntwck/nNLrbqJsEXW7gPb0coNO9FQse9WTovA==
 
 react-portable-text@^0.6.0:
   version "0.6.0"
