@@ -2480,9 +2480,9 @@
     groq-js "^1.30.2"
 
 "@sanity/icons@^5.0.0", "@sanity/icons@^5.2.1", "@sanity/icons@^5.2.2":
-  version "5.2.2"
-  resolved "https://registry.yarnpkg.com/@sanity/icons/-/icons-5.2.2.tgz#5cc195040fdfc404018bf348944ddf013d9848df"
-  integrity sha512-v+5dMjYJ6pC4x8IS/4O/GvQBet5GqsXsqJxBiiS6WHZt21EgntpW+q5hxU3dO4q/njiyR8O1JsdLAs3NranoXA==
+  version "5.2.3"
+  resolved "https://registry.yarnpkg.com/@sanity/icons/-/icons-5.2.3.tgz#0eece8c945e409335171805393b1cd9a253b75dd"
+  integrity sha512-10nE7IiuXIPIf6ufSKyNwnOE75wghEollUYzkjPUAX+5oenyE5qDFUrMD5MeC+8gxZ8KS61o8sH1mpmhpWx++w==
 
 "@sanity/id-utils@^1.0.0", "@sanity/id-utils@^1.1.0":
   version "1.1.0"
