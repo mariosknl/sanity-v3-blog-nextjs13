@@ -2398,6 +2398,11 @@
   resolved "https://registry.yarnpkg.com/@sanity/color/-/color-3.0.8.tgz#c337f5532ddef9be306c243178acd9f0f24fd9d2"
   integrity sha512-MBQ082q7GRvzSH7Xzx4ul1Kxm/AEKDgwTz5cd13oXIlenl3VAM0Un0QpeTjkC5IZTC7SHbnhwkgoVHTZDz9WKQ==
 
+"@sanity/color@^3.0.9":
+  version "3.0.9"
+  resolved "https://registry.yarnpkg.com/@sanity/color/-/color-3.0.9.tgz#36a65a45eea2e2e722d487e5a02c9c78e1cbfbe2"
+  integrity sha512-cvoxvd7ZPs5/TK30yoX6F82GNmIPVg9sVy06PUTWkVnY4m1NpCiTUj+zCQpf8JQdn7c2J9FHytrmnEHNWXDDZw==
+
 "@sanity/comlink@^4.0.1", "@sanity/comlink@^4.0.3":
   version "4.0.3"
   resolved "https://registry.yarnpkg.com/@sanity/comlink/-/comlink-4.0.3.tgz#3d4cc6bafab77e44f2f5d5a02c0e8e88dac07218"
@@ -2483,6 +2488,11 @@
   version "5.2.2"
   resolved "https://registry.yarnpkg.com/@sanity/icons/-/icons-5.2.2.tgz#5cc195040fdfc404018bf348944ddf013d9848df"
   integrity sha512-v+5dMjYJ6pC4x8IS/4O/GvQBet5GqsXsqJxBiiS6WHZt21EgntpW+q5hxU3dO4q/njiyR8O1JsdLAs3NranoXA==
+
+"@sanity/icons@^5.2.3":
+  version "5.2.3"
+  resolved "https://registry.yarnpkg.com/@sanity/icons/-/icons-5.2.3.tgz#0eece8c945e409335171805393b1cd9a253b75dd"
+  integrity sha512-10nE7IiuXIPIf6ufSKyNwnOE75wghEollUYzkjPUAX+5oenyE5qDFUrMD5MeC+8gxZ8KS61o8sH1mpmhpWx++w==
 
 "@sanity/id-utils@^1.0.0", "@sanity/id-utils@^1.1.0":
   version "1.1.0"
@@ -2765,17 +2775,17 @@
     "@sanity/media-library-types" "^1.6.0"
 
 "@sanity/ui@^4.0.0", "@sanity/ui@^4.0.7", "@sanity/ui@^4.2.3":
-  version "4.2.7"
-  resolved "https://registry.yarnpkg.com/@sanity/ui/-/ui-4.2.7.tgz#cfcaabc864ab2e8e233888755f964bc5377706b1"
-  integrity sha512-P/np7nq69M3bmCjzbs2c60M06R4lga2z68ttFV6VFvMFcyw+3aa3qIb73L37e9GkhQS3vEWjnO1G3tcm5OI8sw==
+  version "4.4.0"
+  resolved "https://registry.yarnpkg.com/@sanity/ui/-/ui-4.4.0.tgz#26893ff764c3f5f15780da90f667f70df5727341"
+  integrity sha512-1xEHO8jRbRi2SBpmznPJV82oYDpUR/Am2ZGb8+IkF0sgCfnWhZlDKwvSBYppujrOFj4+WifORpHs2I7hs0Odtw==
   dependencies:
     "@floating-ui/react-dom" "^2.1.9"
-    "@sanity/color" "^3.0.8"
-    "@sanity/icons" "^5.2.2"
+    "@sanity/color" "^3.0.9"
+    "@sanity/icons" "^5.2.3"
     "@vanilla-extract/dynamic" "^2.1.5"
     clsx "^2.1.1"
     csstype "^3.2.3"
-    motion "^13.4.4"
+    motion "^14.0.0"
     react-is "^19.3.0"
     react-refractor "^4.0.0"
     use-effect-event "^2.0.4"
@@ -4351,6 +4361,15 @@ fraction.js@^5.3.4:
   resolved "https://registry.yarnpkg.com/fraction.js/-/fraction.js-5.3.4.tgz#8c0fcc6a9908262df4ed197427bdeef563e0699a"
   integrity sha512-1X1NTtiJphryn/uLQz3whtY6jK3fTqoE3ohKs0tT+Ujr1W59oopxmoEh7Lu5p6vBaPbgoM0bzveAW4Qi5RyWDQ==
 
+framer-motion@14.0.0:
+  version "14.0.0"
+  resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-14.0.0.tgz#d8838c504e56d4982749c633c698e6d584ada181"
+  integrity sha512-QAtHmybrDFSliyW1sexMtSQTQd+1jw2ajibEmzpuI4XdPVzQkn+dAzJMm2sW3pl9MJuSS4xN51djQ7huhlP/VA==
+  dependencies:
+    motion-dom "14.0.0"
+    motion-utils "14.0.0"
+    tslib "^2.4.0"
+
 framer-motion@^13.4.4:
   version "13.4.4"
   resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-13.4.4.tgz#a6b91f25d0c07ad31a78d0562be7e90554f34d4c"
@@ -5292,6 +5311,13 @@ modern-tar@^0.8.5:
   resolved "https://registry.yarnpkg.com/modern-tar/-/modern-tar-0.8.5.tgz#64f5eff1fafc1875f45bf0899452c09bf428cdb3"
   integrity sha512-snEhs+6G5Tjd4I7tLCDOaoln2RgE0bD19RzEKgvgK2hZ5VKy3MpLhLTZ2fWpXSTg4K2cyPwp+VHATFJhxfnOeA==
 
+motion-dom@14.0.0:
+  version "14.0.0"
+  resolved "https://registry.yarnpkg.com/motion-dom/-/motion-dom-14.0.0.tgz#d99ce3f514950c2e456b8fd30483855ba9450e96"
+  integrity sha512-aU3ApXo1yTpeUi3JU+jbDk2TELjxPE3MbBMUP7nZHlARb6RweJK+ojmLjpuB0YsY6zhbBl1YWGo8LMsI1/Llqw==
+  dependencies:
+    motion-utils "14.0.0"
+
 motion-dom@^13.4.4:
   version "13.4.4"
   resolved "https://registry.yarnpkg.com/motion-dom/-/motion-dom-13.4.4.tgz#2b0b4de8f39452cfa75ec40d084e5d65660da1ca"
@@ -5299,17 +5325,30 @@ motion-dom@^13.4.4:
   dependencies:
     motion-utils "^13.3.0"
 
+motion-utils@14.0.0:
+  version "14.0.0"
+  resolved "https://registry.yarnpkg.com/motion-utils/-/motion-utils-14.0.0.tgz#b6e5eacb07248f0a8ed8b1b235f9686777d419d6"
+  integrity sha512-jBsyjVxTTRZNeuvd/v+btVXr90LQkYl4HhRu9T2ARc+PMnvkmjsjRVeAg4Qm10b6TlTw+kykWI8gu/6LuvpLSQ==
+
 motion-utils@^13.3.0:
   version "13.3.0"
   resolved "https://registry.yarnpkg.com/motion-utils/-/motion-utils-13.3.0.tgz#f48cb83bc43c29ca06a807cb84ecd3d04563c635"
   integrity sha512-sgSschQp7EseHInIlR7hBbMuvet3RA0bs28KPZAXJcGKGdxHGvh1ogpYDilY3bOMtl73EqPNmp75sAKHYPU5sg==
 
-motion@^13.1.0, motion@^13.4.0, motion@^13.4.4:
+motion@^13.1.0, motion@^13.4.0:
   version "13.4.4"
   resolved "https://registry.yarnpkg.com/motion/-/motion-13.4.4.tgz#f45c99cf20c3b448a10a1da853cda1b13331ab15"
   integrity sha512-lyX5kpAum2MmigecKWrFdIj3Sjn7pHek2EUrXY0WGZbOjJ1f5NfX0g4KQAb2Bp2EqL0a6dUzse11s1n7OYr5jg==
   dependencies:
     framer-motion "^13.4.4"
+    tslib "^2.4.0"
+
+motion@^14.0.0:
+  version "14.0.0"
+  resolved "https://registry.yarnpkg.com/motion/-/motion-14.0.0.tgz#acb2afa358ab351e72d25d393266dd019d358c58"
+  integrity sha512-oGc2lkge2lkRZCP+J8/JsnYu4NFjqP1MtXirNdetn3QbvK2JqwM9A200EdT4C598KfzDhjLT12zF21xDM4Oilw==
+  dependencies:
+    framer-motion "14.0.0"
     tslib "^2.4.0"
 
 ms@^2.1.3:
