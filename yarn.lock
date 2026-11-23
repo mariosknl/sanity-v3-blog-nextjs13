@@ -2798,22 +2798,7 @@
     "@sanity/client" "^8.16.0"
     "@sanity/media-library-types" "^1.8.0"
 
-"@sanity/ui@^4.0.0", "@sanity/ui@^4.4.9":
-  version "4.4.10"
-  resolved "https://registry.yarnpkg.com/@sanity/ui/-/ui-4.4.10.tgz#bfe088e1410b54837cb9e6e13bfc363e582c9742"
-  integrity sha512-Dig1n0Aba6MM4pCPH357qEkb3elFQ/YzZ1JBDySIiqmf4+S7AbI0ar5cd0KHr39v8YQV2RAAjh2F6n07SmdKwQ==
-  dependencies:
-    "@floating-ui/react-dom" "^2.1.9"
-    "@sanity/color" "^3.0.9"
-    "@sanity/icons" "^5.2.3"
-    clsx "^2.1.1"
-    csstype "^3.2.3"
-    motion "^14.4.0"
-    react-is "^19.3.1"
-    react-refractor "^4.0.0"
-    use-effect-event "^2.0.4"
-
-"@sanity/ui@^4.4.10", "@sanity/ui@^4.4.11":
+"@sanity/ui@^4.0.0", "@sanity/ui@^4.4.10", "@sanity/ui@^4.4.11", "@sanity/ui@^4.4.9":
   version "4.4.12"
   resolved "https://registry.yarnpkg.com/@sanity/ui/-/ui-4.4.12.tgz#8e48fc1cb277211839bbfcea4d55a7ef7b7f302a"
   integrity sha512-6vUZBrg1gK3e2FIZ/6cSjJusKsoyAWdDGD8KT5b/ckFMi9rYHBrYKuO8yIeUTSOcClvyI+q4RzY+Bz+rIRmqyQ==
@@ -5630,7 +5615,7 @@ motion@^14.10.1, motion@^14.13.0:
     framer-motion "14.14.0"
     tslib "^2.4.0"
 
-motion@^14.2.0, motion@^14.4.0:
+motion@^14.2.0:
   version "14.5.0"
   resolved "https://registry.yarnpkg.com/motion/-/motion-14.5.0.tgz#b1569d659b06f550e3933414cc7a1f065823b6d6"
   integrity sha512-A0MinYYhYU12CHELw4+9jKPVreI43yDOprC4kAATHhF1rLfMFMhfpBR0GvdRR/IWEuKsHDnVn4fT+R2gQRyulw==
