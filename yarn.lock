@@ -2831,14 +2831,7 @@
   resolved "https://registry.yarnpkg.com/@sanity/generate-help-url/-/generate-help-url-4.0.0.tgz#3bf023b66254e4169bccd6ba5166195f120791dc"
   integrity sha512-Ooa4xkLT3TLaX+mw/13fq3IeGdnAkx4rbpVASvRVixzBBvvcL6jPqj50fjlCd+EhgB5GRXBCNNAy/hWXwjZEUA==
 
-"@sanity/groq-condition-describe@0.5.2":
-  version "0.5.2"
-  resolved "https://registry.yarnpkg.com/@sanity/groq-condition-describe/-/groq-condition-describe-0.5.2.tgz#0f5aba921d8bf58a364e4d7499892b3091b7ef61"
-  integrity sha512-HbP+UytB9gbScX5JuCM5mJNIZ093p3eeuDojqbf5KIunBaAqi0AuamsU5bjfNa/roE92xAJ9HDLbS5Vc93aPWA==
-  dependencies:
-    groq-js "^1.30.2"
-
-"@sanity/icons@^5.0.0", "@sanity/icons@^5.2.1", "@sanity/icons@^5.2.3", "@sanity/icons@^5.3.0":
+"@sanity/icons@^5.0.0", "@sanity/icons@^5.2.1", "@sanity/icons@^5.2.3", "@sanity/icons@^5.3.0", "@sanity/icons@^5.4.0":
   version "5.4.0"
   resolved "https://registry.yarnpkg.com/@sanity/icons/-/icons-5.4.0.tgz#6bdaef55d1d985ad04a91870243136f13335b979"
   integrity sha512-yoLkmg+VT3ZLByf2mMYo8itpSKvmlGyBbViaXKa1HtrA2ebFHJkAKur1I16TYm5mY0glya0BxI+Ndc+gEjYtvg==
@@ -2856,7 +2849,7 @@
   resolved "https://registry.yarnpkg.com/@sanity/image-url/-/image-url-0.140.22.tgz#7a65f56bb751f7b1c5dfacfadd34ee10fc4f0fde"
   integrity sha512-CAmQZnj+KM7FSEYiWlIGDit072syicYuAw0w7R2ctMzHiZ4p9mE/g6dBnYqrqFUrw2J+GpJgPt+RVspKP8vdqA==
 
-"@sanity/image-url@^2.0.0", "@sanity/image-url@^2.1.1", "@sanity/image-url@^2.2.0":
+"@sanity/image-url@^2.0.0", "@sanity/image-url@^2.2.0":
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/@sanity/image-url/-/image-url-2.2.0.tgz#998f928d9fe288a022496ff003fc6e1420dfd38d"
   integrity sha512-6uJnWhDJMlfwsnHwlnHpUgXCo5kmH3Wv/ERXalgRJHiBhChO/UYhIBTOxdwXTP01EkeoDARn6/+e3Vf+db+JIA==
@@ -7196,9 +7189,9 @@ style-mod@^4.0.0, style-mod@^4.1.0:
   integrity sha512-WQ2llCZa9sZSkJA+aOwpg5DkfbAXFKGh//t3MRTBeruFiSBC+GXUmbBzrw3bXyboCWAbtCW9InDfBsXrRD/rAg==
 
 styled-components@^6.0.0:
-  version "6.6.0"
-  resolved "https://registry.yarnpkg.com/styled-components/-/styled-components-6.6.0.tgz#328d88a2d0c093e8f7031342d3e1c53fe9b4dcd7"
-  integrity sha512-drKKsqvDBxVRn4ySU67iQ5nQBuo/1xyYeBfdhDde112PkqrS3+95KPnpDs5hFRcmrW+q6+gbyywYYYR14oWFtw==
+  version "6.7.0"
+  resolved "https://registry.yarnpkg.com/styled-components/-/styled-components-6.7.0.tgz#85d9f1d5dead463d57a04914d2cc750e50627e4d"
+  integrity sha512-bXQPHHWVSyNtLfCd8GM4yg4i5Cq+y7pDuj5gs/hm5+3vQ3G4QieAQ9QybKl4p1THR3qqEiDa/w4kqVDjZ/sO5Q==
   dependencies:
     "@emotion/is-prop-valid" "1.4.0"
     "@types/stylis" "4.2.7"
