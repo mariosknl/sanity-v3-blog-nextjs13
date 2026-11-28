@@ -3094,7 +3094,7 @@
     "@sanity/client" "^8.16.0"
     "@sanity/media-library-types" "^1.8.0"
 
-"@sanity/ui@^4.0.0":
+"@sanity/ui@^4.0.0", "@sanity/ui@^4.4.14":
   version "4.4.14"
   resolved "https://registry.yarnpkg.com/@sanity/ui/-/ui-4.4.14.tgz#a3d7ec2f4efd3a561613284a6543f4dc3af1c8b9"
   integrity sha512-FWPcRFG8+vPNoqskQWj93PZiIAC5xN3yTu1cYEvVVJjJEebq2lC4WFprwG1+8bm4ZkEVeTFOkrgk3tuiouYnPg==
@@ -3109,7 +3109,7 @@
     react-refractor "^4.0.0"
     use-effect-event "^2.0.4"
 
-"@sanity/ui@^4.4.10", "@sanity/ui@^4.4.11", "@sanity/ui@^4.4.12":
+"@sanity/ui@^4.4.11", "@sanity/ui@^4.4.12":
   version "4.4.12"
   resolved "https://registry.yarnpkg.com/@sanity/ui/-/ui-4.4.12.tgz#8e48fc1cb277211839bbfcea4d55a7ef7b7f302a"
   integrity sha512-6vUZBrg1gK3e2FIZ/6cSjJusKsoyAWdDGD8KT5b/ckFMi9rYHBrYKuO8yIeUTSOcClvyI+q4RzY+Bz+rIRmqyQ==
@@ -6778,14 +6778,14 @@ safe-buffer@~5.1.0, safe-buffer@~5.1.1:
   integrity sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
 
 sanity-plugin-iframe-pane@^5.0.0:
-  version "5.0.43"
-  resolved "https://registry.yarnpkg.com/sanity-plugin-iframe-pane/-/sanity-plugin-iframe-pane-5.0.43.tgz#a35972ad804d787a4f7fb5c740f49aa5932c8844"
-  integrity sha512-fWlOkhjdiMjgT6QZ3sfX0+GhzvE7vLp22sBtjo1bY8D+bhMZgY1TKAjZgiwMIk5nVqadm7p64c1K1+j8GQ5+pQ==
+  version "5.0.44"
+  resolved "https://registry.yarnpkg.com/sanity-plugin-iframe-pane/-/sanity-plugin-iframe-pane-5.0.44.tgz#1d76e979df339cc13c8762bec7e03e6135849134"
+  integrity sha512-nlaJP41K71ajzo8meQ6pmXuWsCUVvOkvS9z8a5NlkpspjmkpR0TnH6hIQ/G+65lN/Jn99DDZTmam0iZmP+FC5g==
   dependencies:
-    "@sanity/client" "^8.14.1"
-    "@sanity/icons" "^5.2.3"
+    "@sanity/client" "^8.17.0"
+    "@sanity/icons" "^5.4.0"
     "@sanity/preview-url-secret" "^4.1.5"
-    "@sanity/ui" "^4.4.10"
+    "@sanity/ui" "^4.4.14"
     dequal "^2.0.3"
     motion "^14.10.1"
     suspend-react "^0.1.3"
